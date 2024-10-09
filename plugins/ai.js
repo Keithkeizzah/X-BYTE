@@ -1,1 +1,750 @@
-const _0x3a8bd0=_0x3e74;(function(_0x3cb966,_0x24cad6){const _0x11bc64=_0x3e74,_0x2a7a26=_0x3cb966();while(!![]){try{const _0x2d875f=-parseInt(_0x11bc64(0x381))/0x1+-parseInt(_0x11bc64(0x437))/0x2+-parseInt(_0x11bc64(0x1d3))/0x3+-parseInt(_0x11bc64(0x1c4))/0x4+parseInt(_0x11bc64(0x240))/0x5+-parseInt(_0x11bc64(0x2a8))/0x6*(-parseInt(_0x11bc64(0x383))/0x7)+parseInt(_0x11bc64(0x415))/0x8;if(_0x2d875f===_0x24cad6)break;else _0x2a7a26['push'](_0x2a7a26['shift']());}catch(_0x615125){_0x2a7a26['push'](_0x2a7a26['shift']());}}}(_0x1668,0x3b89e),function(_0x4ad67f,_0xa45f7b){const _0x3478c2=_0x3e74,_0x312582=_0x4ad67f();while(!![]){try{const _0x1eaed4=parseInt(_0x391d(0x2b0,_0x3478c2(0x3f7)))/0x1*(parseInt(_0x391d(0x456,'EKb0'))/0x2)+-parseInt(_0x391d(0x436,'vFN1'))/0x3*(-parseInt(_0x391d(0x3c7,'g[Jx'))/0x4)+parseInt(_0x391d(0x2ea,_0x3478c2(0x22e)))/0x5+parseInt(_0x391d(0x205,_0x3478c2(0x41b)))/0x6+-parseInt(_0x391d(0x18c,_0x3478c2(0x431)))/0x7+-parseInt(_0x391d(0x2c6,_0x3478c2(0x331)))/0x8+parseInt(_0x391d(0x344,_0x3478c2(0x23b)))/0x9;if(_0x1eaed4===_0xa45f7b)break;else _0x312582[_0x3478c2(0x19e)](_0x312582[_0x3478c2(0x44a)]());}catch(_0x3be17c){_0x312582[_0x3478c2(0x19e)](_0x312582['shift']());}}}(_0x201d,0x97129));const config=require(_0x3a8bd0(0x2a2)),{cmd,commands}=require(_0x3a8bd0(0x2c8)),{getBuffer,getGroupAdmins,getRandom,h2k,isUrl,Json,runtime,sleep,fetchJson}=require(_0x3a8bd0(0x329)),axios=require('axios');async function logo(_0x2566bb){const _0x468e17=_0x3a8bd0;try{const {data:_0x16e106}=await axios['post']('https://boredhumans.com/apis/boredagi_api.php','prompt='+_0x2566bb[_0x468e17(0x1bc)](/\s+/g,_0x468e17(0x2b5))+_0x468e17(0x3ae),{'headers':{'User-Agent':_0x468e17(0x1b2),'Content-Type':_0x468e17(0x422)}}),_0x1dd5e0=_0x16e106['output'][_0x468e17(0x30b)](/src="([^"]+)"/)[0x1];return _0x1dd5e0;}catch(_0x12cf15){return _0x12cf15;}}function _0x391d(_0x4b8eef,_0x5b2a45){const _0x5b2a3a=_0x201d();return _0x391d=function(_0x594c38,_0x4f8742){const _0x3bdefe=_0x3e74;_0x594c38=_0x594c38-0xdd;let _0x5a6771=_0x5b2a3a[_0x594c38];if(_0x391d['FtnQcF']===undefined){var _0x5933c8=function(_0x6fb9ad){const _0x2e0eed=_0x3e74;let _0x4683f4='',_0x4fa372='',_0x27130d=0x0,_0x143dfa,_0x549acd;for(let _0x15fde7=0x0;_0x549acd=_0x6fb9ad[_0x2e0eed(0x252)](_0x15fde7++);~_0x549acd&&(_0x143dfa=_0x27130d%0x4?_0x143dfa*0x40+_0x549acd:_0x549acd,_0x27130d++%0x4)?_0x4683f4+=String['fromCharCode'](0xff&_0x143dfa>>(-0x2*_0x27130d&0x6)):0x0){_0x549acd='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='['indexOf'](_0x549acd);}let _0x25f8a1=0x0;for(let _0x21afd7=_0x4683f4[_0x2e0eed(0x322)];_0x25f8a1<_0x21afd7;_0x25f8a1++){_0x4fa372+='%'+('00'+_0x4683f4[_0x2e0eed(0x467)](_0x25f8a1)[_0x2e0eed(0x34a)](0x10))[_0x2e0eed(0x346)](-0x2);}return decodeURIComponent(_0x4fa372);};const _0x5050cd=function(_0x3692ca,_0x556d9b){const _0x5f060d=_0x3e74;let _0xda768c=[],_0x2e9dd0=0x0,_0x56be73,_0x501c9a='';_0x3692ca=_0x5933c8(_0x3692ca);let _0x47865;for(_0x47865=0x0;_0x47865<0x100;_0x47865++){_0xda768c[_0x47865]=_0x47865;}for(_0x47865=0x0;_0x47865<0x100;_0x47865++){_0x2e9dd0=(_0x2e9dd0+_0xda768c[_0x47865]+_0x556d9b['charCodeAt'](_0x47865%_0x556d9b[_0x5f060d(0x322)]))%0x100,_0x56be73=_0xda768c[_0x47865],_0xda768c[_0x47865]=_0xda768c[_0x2e9dd0],_0xda768c[_0x2e9dd0]=_0x56be73;}_0x47865=0x0,_0x2e9dd0=0x0;for(let _0x1f4abe=0x0;_0x1f4abe<_0x3692ca[_0x5f060d(0x322)];_0x1f4abe++){_0x47865=(_0x47865+0x1)%0x100,_0x2e9dd0=(_0x2e9dd0+_0xda768c[_0x47865])%0x100,_0x56be73=_0xda768c[_0x47865],_0xda768c[_0x47865]=_0xda768c[_0x2e9dd0],_0xda768c[_0x2e9dd0]=_0x56be73,_0x501c9a+=String[_0x5f060d(0x244)](_0x3692ca[_0x5f060d(0x467)](_0x1f4abe)^_0xda768c[(_0xda768c[_0x47865]+_0xda768c[_0x2e9dd0])%0x100]);}return _0x501c9a;};_0x391d['mTAXmu']=_0x5050cd,_0x4b8eef=arguments,_0x391d[_0x3bdefe(0x338)]=!![];}const _0x5c604b=_0x5b2a3a[0x0],_0x18d830=_0x594c38+_0x5c604b,_0x4e5101=_0x4b8eef[_0x18d830];return!_0x4e5101?(_0x391d[_0x3bdefe(0x289)]===undefined&&(_0x391d[_0x3bdefe(0x289)]=!![]),_0x5a6771=_0x391d['mTAXmu'](_0x5a6771,_0x4f8742),_0x4b8eef[_0x18d830]=_0x5a6771):_0x5a6771=_0x4e5101,_0x5a6771;},_0x391d(_0x4b8eef,_0x5b2a45);}const _0x49d246={'pattern':'ailogo','alias':[_0x3a8bd0(0x365),_0x3a8bd0(0x296),_0x3a8bd0(0x1cd)],'react':'🤖','desc':_0x3a8bd0(0x223),'category':'other','use':_0x3a8bd0(0x283),'filename':__filename};cmd(_0x49d246,async(_0x2c7033,_0x529d53,_0xb9b62c,{from:_0x1e0dac,l:_0x492ad7,prefix:_0x4cfbe3,quoted:_0x5c0351,body:_0x29fb11,isCmd:_0x16bf89,command:_0x146cab,args:_0x297226,q:_0x3fc321,isGroup:_0x126608,sender:_0x524f7b,senderNumber:_0x254580,botNumber2:_0x56d6ba,botNumber:_0x54967a,pushname:_0x245e04,isMe:_0x12b687,isOwner:_0x4da5d0,groupMetadata:_0x3db6b5,groupName:_0x4fb36f,participants:_0x52356c,groupAdmins:_0x5cec03,isBotAdmins:_0x3b38d8,isAdmins:_0x18899c,reply:_0xe1feab})=>{const _0x1e16dc=_0x3a8bd0;try{if(!_0x3fc321)return _0xe1feab(_0x1e16dc(0x29f));let _0x50e38c=await logo(_0x3fc321);const _0x59e72a={'url':_0x50e38c},_0x4a30d1={'image':_0x59e72a,'caption':'Powered\x20by\x20TalkDrove'},_0x171dbb={'quoted':_0x529d53};_0x2c7033['sendMessage'](_0x1e0dac,_0x4a30d1,_0x171dbb);}catch(_0x5a495a){_0xe1feab(_0x1e16dc(0x356)),_0x492ad7(_0x5a495a);}});const _0x500bb8={'pattern':_0x3a8bd0(0x2cb),'react':'👾','desc':'It\x20search\x20on\x20chatgpt\x20ai\x20for\x20what\x20you\x20provided.','category':'other'};function _0x32bfc0(_0x213201,_0x4a9e96,_0x2db493,_0x45b2d9,_0x3b0a12){return _0x391d(_0x4a9e96+0x113,_0x3b0a12);}_0x500bb8[_0x3a8bd0(0x2f0)]=_0x3a8bd0(0x468),_0x500bb8['filename']=__filename,cmd(_0x500bb8,async(_0x5856ef,_0x4e4f1e,_0x312e1d,{from:_0x6d369e,l:_0x8f20fe,prefix:_0x33d9a3,quoted:_0x504d13,body:_0xe6d0b9,isCmd:_0x282e00,command:_0x4accff,args:_0x4cbaf2,q:_0xba08b2,isGroup:_0x4127bd,sender:_0x5ad5fa,senderNumber:_0x357dd4,botNumber2:_0x13878a,botNumber:_0x232990,pushname:_0x2fec2d,isMe:_0x1472cf,isOwner:_0xf46087,groupMetadata:_0x58277,groupName:_0x2e234d,participants:_0x2d12ac,groupAdmins:_0x49d803,isBotAdmins:_0xe8f843,isAdmins:_0x51f79e,reply:_0x5c56fa})=>{const _0x1972b=_0x3a8bd0;try{if(!_0xba08b2)return _0x5c56fa(_0x1972b(0x357));}catch(_0xe9bbe5){_0x5c56fa(_0x1972b(0x46c)),_0x8f20fe(_0xe9bbe5);}});const _0x26e734={'pattern':_0x3a8bd0(0x178),'alias':['ai',_0x3a8bd0(0x46a),_0x3a8bd0(0x2b9),_0x3a8bd0(0x1f8)],'react':'👾','desc':_0x3a8bd0(0x43f),'category':_0x3a8bd0(0x3f1),'use':_0x3a8bd0(0x3d6),'filename':__filename};cmd(_0x26e734,async(_0x47faa2,_0x1df6ef,_0x400e87,{from:_0x4b7e4e,l:_0x931f8,prefix:_0x3a9294,quoted:_0x18ef18,body:_0x393380,isCmd:_0x1e1558,command:_0x21aed8,args:_0x4e4936,q:_0x3bd168,isGroup:_0x390d62,sender:_0x1a268e,senderNumber:_0x38af60,botNumber2:_0x486e62,botNumber:_0x7aaa23,pushname:_0x3993b6,isMe:_0x17efe9,isOwner:_0x72cc12,groupMetadata:_0x2dfc63,groupName:_0x2f3607,participants:_0x48b146,groupAdmins:_0x202d5c,isBotAdmins:_0x496d50,isAdmins:_0x47b7e5,reply:_0x55a2d1})=>{const _0x563fb5=_0x3a8bd0;try{if(!_0x3bd168)return _0x55a2d1('*Please\x20give\x20me\x20words\x20to\x20search\x20on\x20chatgpt\x20ai\x20!*');let _0x19e668=await fetchJson(_0x563fb5(0x3cd)+_0x3bd168);return await _0x55a2d1(_0x19e668['reply']);}catch(_0xd41f63){_0x55a2d1(_0x563fb5(0x46c)),_0x931f8(_0xd41f63);}});const _0x3456a4={'pattern':_0x3a8bd0(0x44f),'alias':[_0x3a8bd0(0x22f),_0x3a8bd0(0x3bd),_0x3a8bd0(0x435),_0x3a8bd0(0x3b5)],'react':'👾','desc':_0x3a8bd0(0x43f),'category':_0x3a8bd0(0x3f1),'use':_0x3a8bd0(0x450),'filename':__filename};function _0x1668(){const _0x4d5afc=['W5NdHCoE','W5zXCfldVG','WQbdWR5o','4lws4lES4lAz4lEHrW','slice','W5NdHIaEW40','WO9fySo/pG','r8omaNqe','toString','WO1hWRLjCW','body','W6D4wLih','fCkubf9M','lr8DaZm','n8kiDda/','bJz/qghdVq7cMWxdGq','pGSWmse','4lwe4lAR4lEP4lwB4lEk','kmkoBxu1','WO/cJSkYWQlcMG','I\x20cant\x20create\x20that\x20logo','*Please\x20give\x20me\x20words\x20to\x20search\x20on\x20chatgpt\x20ai\x20!*','4lw14ls/4lEK4lA24lEx','W6qjWRlcTaS','EmowW4m','WPBcOdNcVWy','CCodW5ldRCoJ','WPeVpIlcPW','D8kVvLhcLG','WQG7gWNcRW','WO3cN8kWWQNcIa','teBcGCogrW','bSorjv4N','W6mFW7FcNSof','veVdVeTd','logoai','mJFcKvy','avn6W5xcNq','WQ8/ham','AmoAfCkfxG','kmoWkmkq','kg3cK3xdJa','WQGvW6BdRu4','W7RcSSoKWRK6','WPHXgtiQ','pCkFW7W','W6WqW7y/dG','WQvwW4ldONK','WQ/cNJ/cSIC','vGhdJ8o/CG','ys3dRCoUEq','https://api.yanzbotz.my.id/api/ai/blackbox?query=','WRBcN0a6W4q','iWiT','kCkfWQ0','bSkhxbmv','W5vOWPqmWQC','W4JdHSkVW5hdTa','lSoRlCkBsq','isArray','WPXRe389','ybpcGGKL','WRNdG1v1W60','450039kKMiKe','WODqWO1Tva','14HpMhlB','nmo3W7pdS0O','nCkZWQ7cG8kq','WPlcUJtcQI8','tmoWW7hcNCoE','WPFcKCkzWP0X','WOe5WPuevG','WQhcPeOSCG','wmoVv8oj','DSomW5ldRCoN','W4mXWOWxha','WOPdWRPE','wSohuNSn','Dq94jSkt','sH5Er8k9','ctmwcsm','W603v1yo','WR3cHWOdzG','WR4OaW','peu5i8kU','W7ebW60Vea','mmk6F8oipa','W5/GTiZGTQhGT6FGTi0','midj','yum/jSkx','ldHG','W5DrWPRcOmkZ','wSohuNSv','FCkNrN/cOq','MATHS_AI','4lE84lsR4lEB4lAA4lAv','jSo+W6hdPa8','WPKSWPuaqa','pgNcLqTz','A8kXuG','W7xcICo7W5FcUq','g8oyc1X9','h0xcTLzs','lrv04lEx4lET','eWZcRdPK','d0P3','nmoVW6xcTGu','&apiKey=vihangayt0','&uid=lwle4nyomx5t0w6quo8&sesh_id=6a55e5df-19f2-4043-b295-a8955f9d528c&get_tool=false&tool_num=44','d05rW5FcHa','WPZdHmkaW48L','WRGPWOydEq','wXP+ySoG','W5njWRmkW70','aSoLjcRcPa','chat2','https://api.yanzbotz.my.id/api/text2img/bing-image?prompt=','W6BdO8k3ysO','uCoZmSk5rW','kCoGWRhcVCo4','W6PFW6NdKCkq','vG7dT0bf','W4JdOr4nW4C','gpt2','mSkjodO/','aCk6va','W7tdI8oGWPxcQa','openai4','W6qgWQZcMmkf','W7JcSSoHWPH9','WR7cJcVcVau','FCohW5tdO8oS','wheW','ESoNp8onkq','q8ohwW','cKj2WP4','sCoVdmkn','W6FdHmoQ','iw3cO0y','https://hercai.onrender.com/v3/hercai?question=','W7WgW6KpmW','BCkcW4xcV8oQ','f8o+lMBcSG','g8kvWPNcSmkn','W4xcGZ8kW5u','tq5A','W6tdR8o5W7RdRW','gCo4mG','.chatgpt\x20hi','imkuDYe0','WQ40vKaq','W5BdG8kgxGi','a8knsWW4','emkzxJm2','W6hdU8odW5ldQq','mJFcKvC','cmoxux4c','fromMe','CmkDW5FcUmoQ','ACogW4tcHSog','a8knEmk0W4e','lSoEcCkTzG','W4O+W4y','uGpdUffq','mI5AxmoL','WRJdPw9KW5e','aCkNDXWb','WPZcImkfW4jb','https://api.maher-zubair.tech/ai/photoleap?q=','WPruW4BdO1q','eCkfWR3cOSkJ','WPVcV28sFW','xHrts8o9','WQhdQmosW6hcPG','u2y6gG','other','4Bwqz8M8Y6Wj','WOmCcrlcOq','rqhdJ8oUCa','WOvBpJK4','WOJcKCkBW5rG','eKWU','bwCH','W5FcPMHjWRi','WOb3aI8P','W5tdPmk9tZu','WOLVhZ4P','B8k3uKxcHW','zSohr3nm','W6D4tLib','W4BcOYGaWP5tW4hcI8khlK7dJIu','WRK+tYhcIq','ECosfCk6wG','WRZcOuZcSSo6','ai3','cmkOh8orCG','xqPWWOldLG','oNJcPHeL','4lE64lwbWQdGTzxGT58','W7fTWOq1W7a','jJLQWQJdLW','lSoQnSkxqq','W7VcN11TWOm','o8ogaSkSqW','WOrPgbac','WOu4W5bRiq','WOvKfZy','wCo8dCkj','xmo6hmkBnG','WORcOCkHWPtcNG','WOW/aqxcSG','7090904eTdKhM','W7pcU8oLWRv7','jmoNWQ3cV8o/','blackbox','WOpcGSkW','https://hercai.onrender.com/v3-32k/hercai?question=',')A9C','pLZdMreP','W5VdL8obWOxcHG','Fmo+nmkCzq','e8oaiW','W7dcSL5DWOu','leG1nH4','application/x-www-form-urlencoded;\x20charset=UTF-8','W6qDzwSX','W5DrWORcOCkU','vbldN8kLyq','jCoVWRi','W6G5vL0n','WQbpW6lcPK8','WOPSeIy','WONcHCkaW5rG','m8oZaW','pSkvCdaJ','FWBcNHGY','W5uiW606aq','WPHSbsS','pSore8kbDW','[RpR','FSo9i8kakG','WRtcUYVcRay','WO9kWQbCAq','openai2','W71wWR00W7y','100758RPzGcZ','pcJcIXah','x08+leu','WPldS3rwW5q','uGtdT1fs','bingimgai','BSkJq0lcLG','xmowj0rS','It\x20search\x20on\x20chatgpt\x20ai\x20for\x20what\x20you\x20provided.','W7WZueyf','W7hdHSo9W5W','Ewu2WQhdLq','B0CYkCkg','W5ZcMCotWRjd','ywhcRCoOla','W4jUW6NcHSkP','WPtcHCkAW5mR','Foc1Roc1S+c1Hoc0NG','WQ/cSLNdVSoZ','shift','aCoal1LM','Amo6nmoz','W5pdVCkHrJi','aLiqt8oJ','chatgpt2','.ai2\x20hi','W4JdIZizW5i','4lwk4lAea+c3Soc2Sa','WRFcKKGkpq','gGDXW4lcIG','kSktWQBdLCkK','aIbFWRddKG','b8ohiW','W5FcMNbUWQa','W5KwW5qpoW','bSk+xCkqW64','WPfVva','EYdcLrDe','WRNcNNVcVam','puuNk8kA','W5PSWQ1OuSkgW5q','Unable\x20to\x20generate\x20images\x20to\x20the\x20given\x20prompt','jvm4kq','nmktns8K','WPhcJhWdW4q','iNJcPaxdJG','oCoRWRddTCo5','Need\x20a\x20keyword','charCodeAt','.gptmaths\x202-3','W7fBW7tcLmkF','gpt','chDJW6lcLG','*Server\x20is\x20busy.\x20Try\x20again\x20later.!*','A8oOWRBdUSkW','o0GYz8ke','W4BdOSoXwd4','WO3cJmkrW5iL','oCodW43dGqG','DXXjwSo3','W6maW7JcN8kE','m8kKzCkqASkWW5yKWPlcKCkSWPG','mCkxWRZcLSk8','WP9tWQzjFW','W6dcQh1AWQS','WPaTWOyxvG','WOT1W5FdN0K','F8kVuG','WPK9WPmtuG','W7yuW6STaW','WORcM8kHWRFcMG','B0eWjSkk','lSktWQNcLSkG','WPP4x8kHfa','WOCAWPGOyW','WRtcGdRcRWK','W55VWOusuq','W59XWPXnW6y','WPXSWPqgWQS','W4pdHNmmW4G','chatgpt','4lAe4lst4lwKW7RGTkK','vW1AqmoY','WQ7cMtlcPWi','E8kMCsm0','sCoos3yF','W6DPuKym','WRZcVGBdV8oR','openai3','kqS9jWq','.aipic\x20hi','CGpdQSoFta','tmomW4FcR8oJ','Powered\x20by\x20TalkDrove','imkuFsCO','lK0Y','avvR','tCkcvN8j','g8kAfYjEWPhcJIHIW43cVCku','WOFcNmkMWQBcJG','vmoRhmoiEW','W5G5vLOA','FL3cJLa3','fqBdLmoOnq','omkmEti0','W404W4S7jG','WO3cImk6','gmkQjYFcJW','W6WnW5ephq','zSkJWRxcO17dPSkAW4FdMmkuC8oP','W5fzW5ZcPCo2','mmo9n8kmDW','weBcJG','gmkpqcWl','yHFdLHXG','lmo5WQVdQa','iSoKWR7cVCo0','jCkiDZTS','push','A8oonZC+','WR/cGIm','WP8SWOqErW','WRK/dGpcTa','WOZcHvJdTmo+','hEc0H+c3GUc1MEc3Na','YPVlMog3OvdHTl4','tCo8dCkCCW','WRJcPqFcSW','mmknCtqI','c8kusrC2','W4nlW4a','m8koFcX9','WPtcJ8kWW7jv','W4yJiI0J','WQ3dJrfUW5m','W5vmW4ZcVSkO','m8kcWQdcKmkM','WQNcGmk8WOZcRW','Googlebot-News','W6SUaedcTa','W5xdVCkL','W5pdUCk5wxS','iIn1WQBdLW','W5yAW54Bjq','W5LSW5hGT7pGTj0','t8o8f8kmEq','W4TSW5mQiq','.blackbox\x20hi','replace','b8kYvSkjzG','WPZcNNBdM8oh','WRizlJJcHq','zSo0m8oloW','W5LuW4NcVSk0','WQJcNJ7cUH8','e8oziW','1817080RsLAnL','WOSgWR5sAa','bsyadIq','W68KrWWk','W7OqW7yP','W63dPmocWR3dOq','rGxdLCo+wa','W5hdPCk+qZG','EmkWW6FdQmkK','gptlogo','ce5+W5xcGq','fCoRpYpcNa','F8oMnq','W47dNmoHW7ZdLG','jSoOWRJcV8oI','943260LcSKYK','nYBcJbeh','WOzsWR1nAq','WR3cLfmCya','lmoSWRhcV8oJ','WOVcMCkWWQNdIq','oINcLWzh','ai4','W7W1qLPh','WPdcJmk0WQ7dLG','l8oSiq','vgSOdre','AColW5xdOSoT','4lwS4lsN4lEQW6Hn','WPiYWQOiEG','jMPTWQBcKa','key','W4RdGCovW4ldKa','W74DWRtcJq','W6TvW7u4dq','EaBcGG0Z','W6ldOmoyWRZcRG','lmk1W6NdSKm','omoWl8kqrG','qW7dQLbB','B8o0iSodmq','CCkWtG','W6NcNu3dH8ocEdG','W7KfW7fQcG','W5ZcUmofWQzq','uGxdJ8ofyq','gCk4CYud','WPRdHmkCW4K','WPddM8kfW5vG','eCoCj0i','du9ZW4tdNq','W7VcLKH8WOm','chat','W53dVCk0rdO','chat5','e8oTdSk0xq','W6C5tq4','W6W4WP84ma','W4VcMSoMWRjp','j8oAj1rK','yui+kCke','W5hGT6xGTzFGTR8t','4BAP4BAjW7hHTlhHTzW','fCoIkJlcNa','8k+GOUkaLpgnGiVcR+g0OEg2K+g1Ka','W5xdT3zFWOy','gq3dKmkxuqzunaVcVHz4','WP1sWQbsDa','vwxcRmo+ka','a8ojnCkJsG','W4X9W4VcHCk1','WPnJW6pdVNy','q8oNgSoHkG','W4VcL8oIWRPk','WOu/W5OQjW','WQuQF1ddVa','B0e+z8kp','FOOTER','ubJdSSoFuq','WQ9CW4ldI3m','ymowWPy','WRZcOaBdS8o6','W7pdM8oJ','W4RcV8ogWPn0','jgxcTq','WPO9BmogvW','W7ZcM1PR','WOm9WOatrW','l8oSWQZcUq','https://api.maher-zubair.tech/ai/mathssolve?q=','nmkcWRZcHCkN','x3C9cvC','kSoXWRBcTCoI','ESodW5lcQmoO','WPJcKmkrWObS','It\x20creates\x20ai\x20logos.','W4q4W5PRiq','W4a+WPiXia','n8kuDdLX','jgtcUutdLq','imowbeXh','pmo+W7lcVmo+','tSo4cSkasq','gSkREYuY','W7SgW7yRbq','WP98WQbitG','iKvA','ai2','v0/dNCoVEW','WRXXW5hdSCk1','rmomAuy9','emk2rCkbW6u','WPZcJxaqzq','chat3','WQ4kb1ldUG','W6XnW7tcK8kH','WR5kWQXCAq','eSkYumkwW7q','W4CJW5SY','g[Jx','WOFdJ8kHWQJdIq','iCodf2nI','CmoSnCo2ka','xmoVemogEW','1285455cOikow','vgGApN4','W6lcHSoUW4JdSa','wHtdLmo2Ca','fromCharCode','j0uwnSkx','oCoMWRlcQSoL','BSoogSkYxq','W6NdJrnnkSopWRL2WPpdMSo4xa','ASoBW5xcUCoQ','4lAV4lwTWOBGTAlGTzy','omoSWRhcVSoC','xdJdJv9H','jMFcVLhdGW','W7G0B0yE','W4jPW5Lca3ueimkEw8oNW5ZdMG','hSoVAYhcKG','deHQWPdcJG','charAt','vq7dQWTu','dSoduN4h','WOVcVmkVWR7cRG','vCo8emkAnG','W6nwW4tcS8kQ','e8ohiXzV','WORcPx0CyG','true','W7eyWQO+fW','W74UxXFdTG','WQainZxcTW','c8kOh8oEDW','https://hercai.onrender.com/turbo/hercai?question=','h8ornuvP','W6CCWRlcMSkS','W70DW6aVea','W73dJcycW5i','WRr5dfSm','https://hercai.onrender.com/gemini/hercai?question=','WOm7WOazhq','bCoJWO/cLCoF','dmo0W7xcTG0','4lw/W5vfgge','WR3cHWCqya','WPPUwYOO','xqqcwmo6','zSonaN4b','W5mPWP8Mma','W7efW6aKaW','CCkqBtaI','W4ZdLSomW4mJ','rqpdReDc','kYFcULBdIq','nMhcV0VcHG','*Give\x20me\x20a\x20prompt\x20to\x20generate\x20images*','W43dHSoMW7pdNW','W4O9WPFcVmkZ','lcC2WQ7dLq','pqhcQtPW','omomjWhcTa','WP1dWQHpEq','WP1lE8oDdW','WQ/dP8okWR3cQW','WOJcLCk3WQ3cIa','WQJdImoMW5tdTG','WOFcUmk0hZ8','reply','FrVcMbrV','.ailogo\x20\x20woman,hair\x20cut\x20collor\x20red,full\x20body,bokeh','rmohthay','yqaokmkw','z8oyExOJ','g1r3','W7/cKqKOWPm','RFOWgm','F8kLuKxdKW','iMPYWQZdIq','fmogkvTf','tCoqaNzm','WPniW57dTvO','dubtW7ZcNa','oqRcIcfH','W68DWRBcNmkt','WP4SWOKvqq','W6ZdSmoeWOpcGW','WQq0hqxcRG','WOTVqq','ail','h8opltdcVW','i8o+W67cTHW','EmoWmCodlq','WQDsW6VdO1u','yCoAWRRcQmoN','4ls14lwxWOxdR+c1UW','smkBAvD4','wxeml10','Please\x20enter\x20a\x20query','W6aDWR/cH8kx','prqX','../settings','ai5','W6JcPCoQWOy','w8o2W77cRmo7','oSkSWQVcS8kE','turbo2','1108572qnYIWf','W7GxWRVcGmoz','4lww4lwP4lsIWPJGTji','fH5xt8oN','WRDcpW','WPfXw8oQbq','ECoWpSoefa','WPhdHmkBW44L','AauHnq4','https://hercai.onrender.com/turbo-16k/hercai?question=','ke84imkp','WRVcIdNcRf0','W6mFWRNcHSoA','%2520','AI_IMAGE','wahdLCo+','4lwy4lsk4lwxW7BGTQS','openai','WPLTwq','W7ehW7W','W68tWQZcJCkr','aCk+xq','W6SIhMy9','W7tcQSo/WRnO','WPpcL8kBW44','xmo4o8oAia','W4JdUrOQW6a','WRDoqCokgW','qez7W4dcHG','dmkUq8ktW5m','b8obmZxcOG','B1JcG8onda','../lib/command','xq8Fr8oG','gpt5','mathsgpt','dmkOt8oru3L4jNpcNq','W78hW6fQaW','rwy6deG','WPRcHCkeW5rS','qWtdTfvd','openai5','WQ/cIcVcPbu','W5nZW54wW7i','oSkAWQFcMSkM','eqBdVavw','FNZcMSozcq','WR7cNeSCFq','WQqOfG','WPfOwCo/aG','kmkdWRRcL8k7','aipic','iSkWArCy','WRnAW7pdOXS','jh3cT0ldGW','W6S8abldOa','eGSIkay','gpt4','W5DrWPy','kMxdV0ldGW','4lAX4lwG4lAgfUc2Uq','x1hcG8oneW','W5ZdOmoeWOJcGa','AY3dIKjY','W6RcM0HRWPa','jhJdR1tcMW','4lAmWRnzW4K8','cCkyWQNcL8k4','cCk6umksW6u','C8kQqM/cTW','W4KPW5eOoG','WRlcMttcPaK','use','WPlcRuX6WPi','4lwH4lAdWP8Pna','zHVcNHWU','WOLpWPzCAG','mSoRW7tcTGq','WPzzW4lcSmkV','WPZcUhDsW44','wCkHzNpcQG','C8kJufpcGa','WO4/lvFdRW','W7/dJtuGW5a','WPXPWPKdW7m','ibmGnGq','pa47kfK','m8kaCsD/','W7WtWQZcNmkt','fmoBm1HS','filename','WPZcPeGFEG','W5LMWRGNW4m','pSomeSk7Aq','WOLjWQzADG','bCkLxmkCW7m','sendMessage','gpt3','WRZcMxVcSqm','match','result','qb7dVfzd','o8o9W7/cU8o4','WROVabtcPq','qmk2wmovW6y','wmoqtxOC','rSoqz0ev','a8kcESkTW48','W5uWWPWdW68','fSosiWq5','W587WO4Dha','yw3cOCo7eW','W5LYWOaaW4m','D8oKW6RcNSoK','W4/dH8oxW4hdGW','sColea','4lwN4lwH4lET4lwg4ls3','WRxcMs/cUb8','eSoVocu','W6OZufa','rWpdMSoZoW','dCkhWPZcKSkL','length','WPtdJtJcQqi','W77dV8oBW6RdLG','nY96WQhcNW','WPuKd3ZdNW','kmoOWQVcV8o2','WQK3d0RdJW','../lib/functions','DCohW4JcQSo7','WRZcGtlcQr8','k24am8k6','W4RdIMe','W67dQCocWQ7cVa','W4XAW4RcPCk8','f8o6oYRcKG','jKEd','4lsb4lEO4ls/4lsHgW','W6zPxqVdRW','W7OKvLy','WPjkzCokaG','ESoxW5ldRCoS','pLlcOG85','FtnQcF','lSo7WRZcU8o4','WO1IhW','WRpcHmoUWOdcOa','WPG2leddOq','WQHxW67dTru','WPtcLmkaWP4','W40TW4T2','fGpcVbbV','WRZcVHW'];_0x1668=function(){return _0x4d5afc;};return _0x1668();}cmd(_0x3456a4,async(_0x54acaf,_0x2aa616,_0x3359c2,{from:_0x21fd52,l:_0x253f39,prefix:_0x3c7634,quoted:_0x5cb3c6,body:_0x40f387,isCmd:_0x3071d4,command:_0xdf159e,args:_0x4179a3,q:_0x5d2b5f,isGroup:_0x491724,sender:_0x5cf46a,senderNumber:_0x463adb,botNumber2:_0xe5a475,botNumber:_0x558ebd,pushname:_0x7a70ab,isMe:_0x1f69b9,isOwner:_0xe9c928,groupMetadata:_0x7a6374,groupName:_0x551026,participants:_0x165005,groupAdmins:_0x408d62,isBotAdmins:_0x5994d8,isAdmins:_0x27bab2,reply:_0x3850af})=>{const _0x2e9066=_0x3a8bd0;try{if(!_0x5d2b5f)return _0x3850af(_0x2e9066(0x357));let _0x5ac3b2=await fetchJson(_0x2e9066(0x41a)+_0x5d2b5f);return await _0x3850af(_0x5ac3b2[_0x2e9066(0x281)]);}catch(_0x2c609d){_0x3850af(_0x2e9066(0x46c)),_0x253f39(_0x2c609d);}});const _0x2274e0={'pattern':'turbo','alias':[_0x3a8bd0(0x404),_0x3a8bd0(0x309),_0x3a8bd0(0x180),_0x3a8bd0(0x235)],'react':'👾','desc':_0x3a8bd0(0x43f),'category':'other','use':'.chatgpt\x20hi','filename':__filename};cmd(_0x2274e0,async(_0x9f4b2f,_0x30fb5d,_0x13649a,{from:_0x424424,l:_0x159b75,prefix:_0x513098,quoted:_0x258693,body:_0x5dcfca,isCmd:_0x54e6d6,command:_0x15fb2a,args:_0x379b0c,q:_0x56f93c,isGroup:_0x1f2ca1,sender:_0x2d7bef,senderNumber:_0x71b770,botNumber2:_0xfc92c2,botNumber:_0x4bfb88,pushname:_0x3a9244,isMe:_0x3259af,isOwner:_0x262b8e,groupMetadata:_0x187e0f,groupName:_0x213fec,participants:_0x2bb280,groupAdmins:_0x1a23b2,isBotAdmins:_0x274555,isAdmins:_0x4523cb,reply:_0x28640e})=>{const _0x1aec84=_0x3a8bd0;try{if(!_0x56f93c)return _0x28640e('*Please\x20give\x20me\x20words\x20to\x20search\x20on\x20chatgpt\x20ai\x20!*');let _0x4b1161=await fetchJson(_0x1aec84(0x25f)+_0x56f93c);return await _0x28640e(_0x4b1161[_0x1aec84(0x281)]);}catch(_0x6d7a7d){_0x28640e(_0x1aec84(0x46c)),_0x159b75(_0x6d7a7d);}});const _0x20ce10={'pattern':_0x3a8bd0(0x2a7),'alias':[_0x3a8bd0(0x1da),_0x3a8bd0(0x2e1),_0x3a8bd0(0x3c1),'chat4'],'react':'👾','desc':_0x3a8bd0(0x43f)};function _0x2eafd5(_0x296c6c,_0x21019a,_0x4c95d2,_0x115683,_0x2ee734){return _0x391d(_0x4c95d2-0x25a,_0x21019a);}function _0x3e74(_0x49d912,_0x27c86a){const _0x1668c6=_0x1668();return _0x3e74=function(_0x3e74ac,_0x437a04){_0x3e74ac=_0x3e74ac-0x176;let _0x29f993=_0x1668c6[_0x3e74ac];return _0x29f993;},_0x3e74(_0x49d912,_0x27c86a);}_0x20ce10['category']=_0x3a8bd0(0x3f1),_0x20ce10['use']=_0x3a8bd0(0x3d6),_0x20ce10[_0x3a8bd0(0x302)]=__filename,cmd(_0x20ce10,async(_0x3a8ba7,_0x2b8a8d,_0x1f485d,{from:_0x2604b3,l:_0xa71390,prefix:_0x2d1bd6,quoted:_0x4e4f47,body:_0x3d3c8f,isCmd:_0x314093,command:_0x54c2b7,args:_0x4e8e78,q:_0xe748d,isGroup:_0x439dcc,sender:_0xa4a631,senderNumber:_0x4e737a,botNumber2:_0x30f43d,botNumber:_0x1ad4f2,pushname:_0xe995e7,isMe:_0x2a10b7,isOwner:_0xdc9cd3,groupMetadata:_0x10c1e3,groupName:_0x14eeca,participants:_0x3746fd,groupAdmins:_0x4463f2,isBotAdmins:_0x3e277d,isAdmins:_0x23c35f,reply:_0x1b124f})=>{const _0x379142=_0x3a8bd0;try{if(!_0xe748d)return _0x1b124f(_0x379142(0x357));let _0x3b5fbc=await fetchJson(_0x379142(0x2b1)+_0xe748d);return await _0x1b124f(_0x3b5fbc['reply']);}catch(_0x5e8a17){_0x1b124f(_0x379142(0x46c)),_0xa71390(_0x5e8a17);}});const _0x35736d={'pattern':'gemini','alias':[_0x3a8bd0(0x2a3),_0x3a8bd0(0x2ca),_0x3a8bd0(0x2d1),_0x3a8bd0(0x1fa)],'react':'👾','desc':_0x3a8bd0(0x43f),'category':_0x3a8bd0(0x3f1),'use':_0x3a8bd0(0x3d6),'filename':__filename};cmd(_0x35736d,async(_0x518d7d,_0x13989c,_0x38cc38,{from:_0x2bc5fc,l:_0x388648,prefix:_0x5ddf00,quoted:_0x5e19f4,body:_0x3e10fc,isCmd:_0x3cbb7d,command:_0x38f20a,args:_0x35089e,q:_0xffb0e5,isGroup:_0x4a1b05,sender:_0x517272,senderNumber:_0x5b1e49,botNumber2:_0x390866,botNumber:_0x262e9b,pushname:_0x3c82cc,isMe:_0x8fe244,isOwner:_0xfcd81d,groupMetadata:_0x411385,groupName:_0x519e45,participants:_0x572beb,groupAdmins:_0x58c939,isBotAdmins:_0x368431,isAdmins:_0x4fa312,reply:_0x30a34a})=>{const _0x2345f5=_0x3a8bd0;try{if(!_0xffb0e5)return _0x30a34a(_0x2345f5(0x357));let _0x3e37f3=await fetchJson(_0x2345f5(0x265)+_0xffb0e5);return await _0x30a34a(_0x3e37f3['reply']);}catch(_0x2a45e3){_0x30a34a(_0x2345f5(0x46c)),_0x388648(_0x2a45e3);}});const _0xebe1f4={'pattern':_0x3a8bd0(0x2db),'react':'👾','desc':'It\x20search\x20on\x20chatgpt\x20ai\x20for\x20what\x20you\x20provided.','category':'other','use':_0x3a8bd0(0x182),'filename':__filename};cmd(_0xebe1f4,async(_0x3e599a,_0x225835,_0x135a89,{from:_0x117fce,l:_0xa2a1cd,prefix:_0x1fc6c9,quoted:_0x5c44d5,body:_0x33cd81,isCmd:_0x2710c5,command:_0x52b91e,args:_0x39ebd4,q:_0x1a0068,isGroup:_0x85220f,sender:_0x33dc5f,senderNumber:_0x36204c,botNumber2:_0x54d18e,botNumber:_0x599268,pushname:_0x595c4c,isMe:_0xe4da5c,isOwner:_0x22b012,groupMetadata:_0x4e7cf2,groupName:_0x5dd746,participants:_0x21179f,groupAdmins:_0x4c91de,isBotAdmins:_0x5f2595,isAdmins:_0x357c0e,reply:_0x175251})=>{const _0x19c207=_0x3a8bd0;try{if(!_0x1a0068)return _0x175251(_0x19c207(0x357));let _0x3959f6=await fetchJson(_0x19c207(0x3ea)+_0x1a0068);const _0x47b05d={'url':await _0x3959f6[_0x19c207(0x30c)]},_0x5a5120={'image':_0x47b05d,'caption':_0x19c207(0x185)},_0x5662cc={'quoted':_0x225835};await _0x3e599a[_0x19c207(0x308)](_0x117fce,_0x5a5120,_0x5662cc);}catch(_0x106325){_0x175251(_0x19c207(0x46c)),_0xa2a1cd(_0x106325);}});function _0x158ffa(_0xf6ba7d,_0x227f74,_0x2f03e0,_0x714f44,_0xc5606f){return _0x391d(_0x2f03e0+0x1b,_0xf6ba7d);}const _0x5a6730={'on':_0x3a8bd0(0x34c)};function _0x4245c0(_0x50d4d1,_0x22597f,_0x3fa12f,_0x2f6cd7,_0x34cc6b){return _0x391d(_0x50d4d1-0x9e,_0x3fa12f);}cmd(_0x5a6730,async(_0x2ebcdf,_0x371b0e,_0x16263a,{from:_0x37d942,l:_0x36e4e1,prefix:_0x2de5a8,quoted:_0x23afa7,body:_0x249a3a,isCmd:_0x31ab4c,command:_0x4a6a0d,args:_0x523d1,q:_0x55f4e5,isGroup:_0x218f6c,sender:_0x2211d8,senderNumber:_0x6ee4af,botNumber2:_0x5aaaf2,botNumber:_0xdb1613,pushname:_0x578a36,isMe:_0x1c0705,isOwner:_0x419ae7,groupMetadata:_0x258b8b,groupName:_0x5bbc0b,participants:_0x5e8ff3,groupAdmins:_0x485000,isBotAdmins:_0x4faa54,isAdmins:_0x2db1d7,reply:_0x27a852})=>{const _0x4b4f4c=_0x3a8bd0;if(config['AI_CHATBOT']===_0x4b4f4c(0x25a)){if(_0x371b0e[_0x4b4f4c(0x1e3)][_0x4b4f4c(0x3df)])return;let _0x559897=await fetchJson(_0x4b4f4c(0x265)+_0x55f4e5);return await _0x27a852(_0x559897[_0x4b4f4c(0x281)]);}});const _0x2e197e={};function _0x201d(){const _0x2ddf27=_0x3a8bd0,_0x1f0488=[_0x2ddf27(0x17c),_0x2ddf27(0x307),_0x2ddf27(0x363),'WRpcNCkTW4Tr',_0x2ddf27(0x18d),_0x2ddf27(0x2c2),_0x2ddf27(0x42d),_0x2ddf27(0x1aa),'W7RcT8k4WRf4','WPzqW4W',_0x2ddf27(0x37b),_0x2ddf27(0x2de),_0x2ddf27(0x1f0),'rmk3zNtcLa','cSoIeMrh',_0x2ddf27(0x277),'WPOod3ddLW',_0x2ddf27(0x1ce),_0x2ddf27(0x2a6),_0x2ddf27(0x2aa),_0x2ddf27(0x35a),'CwCQ','WQRcKeyAzW',_0x2ddf27(0x333),_0x2ddf27(0x1b3),_0x2ddf27(0x233),_0x2ddf27(0x376),'W7DqWQJdRL4',_0x2ddf27(0x3a1),_0x2ddf27(0x368),_0x2ddf27(0x477),_0x2ddf27(0x22d),_0x2ddf27(0x1ac),_0x2ddf27(0x195),_0x2ddf27(0x191),'wGFdLa',_0x2ddf27(0x360),_0x2ddf27(0x1ca),'qbpdNG',_0x2ddf27(0x327),_0x2ddf27(0x461),_0x2ddf27(0x32d),_0x2ddf27(0x19f),_0x2ddf27(0x254),'n8opW5/dO8oM',_0x2ddf27(0x2f8),'jc9Q',_0x2ddf27(0x1d0),_0x2ddf27(0x2f1),'xuddNW',_0x2ddf27(0x1e7),'xH/dSubf','c19MWO0',_0x2ddf27(0x30e),_0x2ddf27(0x286),_0x2ddf27(0x2f7),_0x2ddf27(0x324),_0x2ddf27(0x318),'4lEi4lwMAbBGTRW',_0x2ddf27(0x37e),_0x2ddf27(0x3fb),_0x2ddf27(0x21f),'WR/cGtRcQWC',_0x2ddf27(0x294),_0x2ddf27(0x3c2),_0x2ddf27(0x2d8),_0x2ddf27(0x28c),_0x2ddf27(0x27a),_0x2ddf27(0x197),_0x2ddf27(0x2cd),_0x2ddf27(0x3d9),_0x2ddf27(0x389),_0x2ddf27(0x26e),_0x2ddf27(0x3a8),_0x2ddf27(0x47c),_0x2ddf27(0x448),_0x2ddf27(0x403),_0x2ddf27(0x213),_0x2ddf27(0x20a),_0x2ddf27(0x1fc),'W7eAW6L3ba','WODlWQHAFW',_0x2ddf27(0x445),'xmoTemofCG',_0x2ddf27(0x3a3),_0x2ddf27(0x1f6),_0x2ddf27(0x3e1),_0x2ddf27(0x27d),_0x2ddf27(0x3e0),'WRxcJc/dQaa',_0x2ddf27(0x26f),_0x2ddf27(0x471),_0x2ddf27(0x299),_0x2ddf27(0x18b),'uaLlxSoG',_0x2ddf27(0x44c),_0x2ddf27(0x419),_0x2ddf27(0x36c),_0x2ddf27(0x2ef),_0x2ddf27(0x385),_0x2ddf27(0x200),'AtRcGGKN',_0x2ddf27(0x31e),_0x2ddf27(0x421),_0x2ddf27(0x36f),_0x2ddf27(0x45e),'ubpdJ8oZEG','WQzzW6BdTf8',_0x2ddf27(0x2ec),_0x2ddf27(0x3b8),_0x2ddf27(0x33f),_0x2ddf27(0x188),_0x2ddf27(0x2ea),_0x2ddf27(0x374),'hGpdVfDu',_0x2ddf27(0x47d),_0x2ddf27(0x1a8),_0x2ddf27(0x2ff),_0x2ddf27(0x34e),_0x2ddf27(0x359),_0x2ddf27(0x300),'E8k6FNpcTW',_0x2ddf27(0x1d9),_0x2ddf27(0x470),'WQqfrKeF',_0x2ddf27(0x3f3),'4lEu4lAYW7dGTRhGTja',_0x2ddf27(0x40a),_0x2ddf27(0x29b),'jCoWoadcTa','W7JcTeKDmW',_0x2ddf27(0x263),'WOuUW4O4la','W70DW6q+uq',_0x2ddf27(0x399),_0x2ddf27(0x388),_0x2ddf27(0x319),_0x2ddf27(0x19c),_0x2ddf27(0x453),_0x2ddf27(0x2bd),_0x2ddf27(0x229),_0x2ddf27(0x459),_0x2ddf27(0x424),_0x2ddf27(0x33a),'W6tdJ8oEWOBcGG',_0x2ddf27(0x42c),_0x2ddf27(0x1f5),_0x2ddf27(0x1e5),'WPicWQGXCG',_0x2ddf27(0x3c5),'DsRcKbbD',_0x2ddf27(0x3ed),_0x2ddf27(0x2e8),_0x2ddf27(0x3f4),_0x2ddf27(0x43d),_0x2ddf27(0x29a),'s8oAW5hcQSoR',_0x2ddf27(0x337),_0x2ddf27(0x455),_0x2ddf27(0x35b),_0x2ddf27(0x3e9),_0x2ddf27(0x2c5),_0x2ddf27(0x447),_0x2ddf27(0x1a1),'y8kUWRdcRGhcM8kvW4JdJ8kW',_0x2ddf27(0x2fa),_0x2ddf27(0x47a),_0x2ddf27(0x18f),_0x2ddf27(0x36e),_0x2ddf27(0x1b7),'WRhcQSkEW41F',_0x2ddf27(0x43e),_0x2ddf27(0x3de),_0x2ddf27(0x204),_0x2ddf27(0x1ae),'n23cO1xdIq',_0x2ddf27(0x24e),'W6pdS8ooW7dcVG',_0x2ddf27(0x2be),_0x2ddf27(0x3fc),_0x2ddf27(0x480),_0x2ddf27(0x259),_0x2ddf27(0x379),_0x2ddf27(0x1d5),_0x2ddf27(0x20b),_0x2ddf27(0x217),_0x2ddf27(0x332),_0x2ddf27(0x21c),'Bd58WRhdHa','aLiqsCo6',_0x2ddf27(0x1ec),_0x2ddf27(0x463),_0x2ddf27(0x32a),_0x2ddf27(0x2e4),_0x2ddf27(0x40c),_0x2ddf27(0x3c3),'uSoBkbzQ',_0x2ddf27(0x40f),_0x2ddf27(0x40b),_0x2ddf27(0x249),_0x2ddf27(0x224),'W77cVmo2WQr+',_0x2ddf27(0x3d7),'WPhcGCkyW5bJ',_0x2ddf27(0x3da),_0x2ddf27(0x484),_0x2ddf27(0x3ff),'WOxdGdSkW5u',_0x2ddf27(0x1c7),_0x2ddf27(0x316),'lLa+Amkb',_0x2ddf27(0x194),_0x2ddf27(0x304),_0x2ddf27(0x3d5),'xmkAAvPH','WOfUet4Z',_0x2ddf27(0x1e4),'oCo3jCkbgG',_0x2ddf27(0x438),'W6RcM1LKWP0',_0x2ddf27(0x35e),'oLmYnq',_0x2ddf27(0x291),_0x2ddf27(0x38e),_0x2ddf27(0x17b),_0x2ddf27(0x280),_0x2ddf27(0x23e),_0x2ddf27(0x38f),'WP4DaW3cIa',_0x2ddf27(0x25b),_0x2ddf27(0x258),_0x2ddf27(0x3b2),_0x2ddf27(0x210),'kmo6n8kaqG',_0x2ddf27(0x230),'WPtcHNpdK8oK',_0x2ddf27(0x3d0),_0x2ddf27(0x1f9),'WPddPgmo','W6WwW6qJta',_0x2ddf27(0x472),'WQpcLCkKWOtcKa',_0x2ddf27(0x205),'WRtcHmk7WOJcRq',_0x2ddf27(0x41f),'W5BdPSoCW6W',_0x2ddf27(0x417),_0x2ddf27(0x2b2),'W7/cJL07',_0x2ddf27(0x481),_0x2ddf27(0x17e),_0x2ddf27(0x3e5),'W7G/r1yn','pmo2kmkqqa',_0x2ddf27(0x278),_0x2ddf27(0x321),_0x2ddf27(0x454),_0x2ddf27(0x3a4),_0x2ddf27(0x1e8),_0x2ddf27(0x23f),_0x2ddf27(0x3a7),_0x2ddf27(0x400),_0x2ddf27(0x2e2),_0x2ddf27(0x2ad),_0x2ddf27(0x31d),_0x2ddf27(0x46f),_0x2ddf27(0x301),_0x2ddf27(0x402),'m8k/iSkAxa','WQbwW6i',_0x2ddf27(0x297),_0x2ddf27(0x38d),_0x2ddf27(0x41d),_0x2ddf27(0x409),'WPlcQmktWOJcOW',_0x2ddf27(0x2cc),_0x2ddf27(0x443),_0x2ddf27(0x433),'4lsQW7dcT8o3ma',_0x2ddf27(0x271),'m8oFmwbf','4ls14ls24lARe+c0MW',_0x2ddf27(0x479),'h8ovmL57',_0x2ddf27(0x33c),_0x2ddf27(0x451),_0x2ddf27(0x231),_0x2ddf27(0x2ba),_0x2ddf27(0x314),'W6K4DKSL',_0x2ddf27(0x366),_0x2ddf27(0x3e7),_0x2ddf27(0x39d),_0x2ddf27(0x3b4),_0x2ddf27(0x41e),_0x2ddf27(0x430),'4ls84lAE4lEYe+c0Hq',_0x2ddf27(0x3e3),_0x2ddf27(0x3ca),'aCk+hSkyW6e',_0x2ddf27(0x39c),_0x2ddf27(0x237),_0x2ddf27(0x181),_0x2ddf27(0x2c3),_0x2ddf27(0x3c6),_0x2ddf27(0x410),_0x2ddf27(0x2b0),_0x2ddf27(0x1ee),_0x2ddf27(0x241),_0x2ddf27(0x199),_0x2ddf27(0x214),_0x2ddf27(0x256),_0x2ddf27(0x284),_0x2ddf27(0x2d0),_0x2ddf27(0x2a0),_0x2ddf27(0x216),'WP3dOM5dW5u',_0x2ddf27(0x3ce),_0x2ddf27(0x201),_0x2ddf27(0x341),_0x2ddf27(0x3fd),_0x2ddf27(0x1e9),_0x2ddf27(0x3ba),'iCoyeJ7cQa',_0x2ddf27(0x1be),'zCoNkq','eCovmLnV',_0x2ddf27(0x28a),_0x2ddf27(0x25c),'qqRdRvfs',_0x2ddf27(0x1bd),_0x2ddf27(0x45f),_0x2ddf27(0x3e8),_0x2ddf27(0x208),_0x2ddf27(0x342),_0x2ddf27(0x2fb),_0x2ddf27(0x2cf),_0x2ddf27(0x47f),_0x2ddf27(0x1cc),_0x2ddf27(0x478),_0x2ddf27(0x373),_0x2ddf27(0x45d),_0x2ddf27(0x1af),_0x2ddf27(0x251),_0x2ddf27(0x46d),'WP3dS2HqW4C','vWLxs8oH',_0x2ddf27(0x21e),'WOLUeW',_0x2ddf27(0x441),_0x2ddf27(0x21b),_0x2ddf27(0x190),_0x2ddf27(0x367),_0x2ddf27(0x2ab),_0x2ddf27(0x288),_0x2ddf27(0x2b4),_0x2ddf27(0x1a5),_0x2ddf27(0x426),_0x2ddf27(0x1f1),_0x2ddf27(0x2eb),_0x2ddf27(0x276),_0x2ddf27(0x41c),'jhZcT1xdKG',_0x2ddf27(0x47b),_0x2ddf27(0x1a0),_0x2ddf27(0x274),_0x2ddf27(0x35f),_0x2ddf27(0x434),_0x2ddf27(0x176),'FCosm8oykq',_0x2ddf27(0x2ee),_0x2ddf27(0x198),'xbHnamoW','W51AW4RcQCoM',_0x2ddf27(0x1d8),_0x2ddf27(0x358),_0x2ddf27(0x351),_0x2ddf27(0x42e),_0x2ddf27(0x1c6),_0x2ddf27(0x22a),_0x2ddf27(0x325),'W5RdUCkLwIG',_0x2ddf27(0x364),_0x2ddf27(0x45c),_0x2ddf27(0x1c5),'DmodW5lcPCo8',_0x2ddf27(0x33e),_0x2ddf27(0x248),_0x2ddf27(0x264),_0x2ddf27(0x2b3),_0x2ddf27(0x340),'WP18wCoQea',_0x2ddf27(0x1b9),'mc9RWQRdNW',_0x2ddf27(0x396),_0x2ddf27(0x1d6),_0x2ddf27(0x266),_0x2ddf27(0x290),_0x2ddf27(0x298),_0x2ddf27(0x2d4),_0x2ddf27(0x1cf),_0x2ddf27(0x3a2),_0x2ddf27(0x2fd),_0x2ddf27(0x236),_0x2ddf27(0x253),_0x2ddf27(0x1d2),_0x2ddf27(0x390),_0x2ddf27(0x20e),_0x2ddf27(0x23d),_0x2ddf27(0x179),'WPWYjHpdOq',_0x2ddf27(0x3a9),_0x2ddf27(0x312),'W6e4uvyh',_0x2ddf27(0x3db),'WPqQW4WkrG','W47dGtWFWOW','W44AWRLpDq',_0x2ddf27(0x31a),_0x2ddf27(0x347),_0x2ddf27(0x444),_0x2ddf27(0x1b8),_0x2ddf27(0x273),_0x2ddf27(0x2f3),'cCo3uSkDW6e',_0x2ddf27(0x295),_0x2ddf27(0x17a),_0x2ddf27(0x1f7),_0x2ddf27(0x2df),_0x2ddf27(0x196),'yHRdT8oODG',_0x2ddf27(0x2a9),_0x2ddf27(0x19b),_0x2ddf27(0x22b),_0x2ddf27(0x2c7),_0x2ddf27(0x2dc),_0x2ddf27(0x394),_0x2ddf27(0x2bf),_0x2ddf27(0x456),_0x2ddf27(0x413),_0x2ddf27(0x34d),'W6SPaaZcTG',_0x2ddf27(0x20c),_0x2ddf27(0x32c),_0x2ddf27(0x2e6),_0x2ddf27(0x476),_0x2ddf27(0x1ba),'W6iJW5aSoq','nb/cVrrt','W5iSwt4Q',_0x2ddf27(0x28e),'W5NcT3zlWQW',_0x2ddf27(0x1c2),_0x2ddf27(0x226),_0x2ddf27(0x268),_0x2ddf27(0x3ee),_0x2ddf27(0x18a),'sLhcJ8ohcq',_0x2ddf27(0x392),_0x2ddf27(0x24b),'W5T3WPCB','xehcJCkwqq',_0x2ddf27(0x3f5),_0x2ddf27(0x303),_0x2ddf27(0x1fe),_0x2ddf27(0x2f2),_0x2ddf27(0x1ed),_0x2ddf27(0x32b),'FXFcIqzi',_0x2ddf27(0x395),'WOvQeJu',_0x2ddf27(0x3e2),_0x2ddf27(0x1ad),_0x2ddf27(0x397),_0x2ddf27(0x436),_0x2ddf27(0x20d),_0x2ddf27(0x32e),_0x2ddf27(0x1a3),'WOHkW6ddTxe',_0x2ddf27(0x186),_0x2ddf27(0x3c0),_0x2ddf27(0x349),'oCo+mmkCqq','W7HRv1ldSalcRCkIW4ldG8ovW7Hf',_0x2ddf27(0x2ae),_0x2ddf27(0x3af),'W5ddRmkJtG','lSkvWQNcNmo6',_0x2ddf27(0x3e4),_0x2ddf27(0x2b7),_0x2ddf27(0x2e9),'aSolbH7cSW','WOTXdCoIfG',_0x2ddf27(0x380),'W6TOW6ldTe0',_0x2ddf27(0x243),'W7FcKfTTWOO',_0x2ddf27(0x354),_0x2ddf27(0x416),_0x2ddf27(0x475),_0x2ddf27(0x2d9),_0x2ddf27(0x44b),_0x2ddf27(0x427),'W4BcPCoiWQ7cOq','WP5sW6LjDq',_0x2ddf27(0x406),'rwyOgLa',_0x2ddf27(0x177),_0x2ddf27(0x3f6),'WRTqfqur',_0x2ddf27(0x2f5),_0x2ddf27(0x2a5),_0x2ddf27(0x428),_0x2ddf27(0x22c),'W6GxWQVcIW','WP/cMMfsWPDSg2FdPmk9d38',_0x2ddf27(0x1a6),_0x2ddf27(0x1f4),_0x2ddf27(0x405),_0x2ddf27(0x3f8),_0x2ddf27(0x2b8),'WOxdPhvfW48',_0x2ddf27(0x282),_0x2ddf27(0x45b),_0x2ddf27(0x2a1),_0x2ddf27(0x247),_0x2ddf27(0x3ab),'wXjrwSo2',_0x2ddf27(0x446),'BSkqBtaI','iSkoy8kGW40','WQbxW67dP0G',_0x2ddf27(0x3a6),'tKz1W5hcHG','CCk2x1pcGq',_0x2ddf27(0x330),_0x2ddf27(0x21a),_0x2ddf27(0x27c),_0x2ddf27(0x20f),_0x2ddf27(0x227),_0x2ddf27(0x1e2),_0x2ddf27(0x24a),_0x2ddf27(0x3bf),_0x2ddf27(0x384),_0x2ddf27(0x3b3),'kNRcTuhdHW',_0x2ddf27(0x320),_0x2ddf27(0x285),_0x2ddf27(0x2e5),_0x2ddf27(0x42a),_0x2ddf27(0x352),'WOCiWQrCCG',_0x2ddf27(0x46e),_0x2ddf27(0x31c),_0x2ddf27(0x408),_0x2ddf27(0x2ac),_0x2ddf27(0x287),_0x2ddf27(0x212),_0x2ddf27(0x27e),_0x2ddf27(0x222),_0x2ddf27(0x1ea),_0x2ddf27(0x2d2),_0x2ddf27(0x242),_0x2ddf27(0x40d),'md7dMa','saFdRf0','umo/iIldHG',_0x2ddf27(0x350),_0x2ddf27(0x2d7),_0x2ddf27(0x3f0),_0x2ddf27(0x305),_0x2ddf27(0x1f2),_0x2ddf27(0x3cc),'WQqBW7pdQrS','W6ldMGGrDG',_0x2ddf27(0x18c),_0x2ddf27(0x3d1),_0x2ddf27(0x3f9),_0x2ddf27(0x3d2),_0x2ddf27(0x1e6),_0x2ddf27(0x31b),_0x2ddf27(0x449),'WRJcJLTNWOK','vSoZe8kAta',_0x2ddf27(0x1dc),'WP8QCvtdPW','W58KW6KMmW',_0x2ddf27(0x462),_0x2ddf27(0x2a4),'WOxdGt8kW4i',_0x2ddf27(0x391),_0x2ddf27(0x369),_0x2ddf27(0x323),_0x2ddf27(0x46b),_0x2ddf27(0x270),_0x2ddf27(0x234),'W67dTCkuWR7dSG',_0x2ddf27(0x2f6),_0x2ddf27(0x209),'ErvNF8kormoQaCoQWPO','WPmVjWFcGq',_0x2ddf27(0x3b9),_0x2ddf27(0x2c6),_0x2ddf27(0x279),_0x2ddf27(0x474),'bCkKqSkuW6C',_0x2ddf27(0x1fd),_0x2ddf27(0x315),_0x2ddf27(0x239),_0x2ddf27(0x220),_0x2ddf27(0x33b),_0x2ddf27(0x3c7),'CSk0uGNcGG',_0x2ddf27(0x25e),_0x2ddf27(0x17f),'kJLyWRVdGG',_0x2ddf27(0x1d7),_0x2ddf27(0x36d),_0x2ddf27(0x43b),'C8kRwv/dNa',_0x2ddf27(0x1c0),'W4ddQmkHrIi',_0x2ddf27(0x2c0),'tCoqddzg',_0x2ddf27(0x2c1),_0x2ddf27(0x184),_0x2ddf27(0x1a9),_0x2ddf27(0x3e6),'jmoAespcIG',_0x2ddf27(0x34f),'DmokW5pcLmol',_0x2ddf27(0x3eb),_0x2ddf27(0x232),_0x2ddf27(0x269),'WQpdVxDbW4e',_0x2ddf27(0x1bf),_0x2ddf27(0x1b4),_0x2ddf27(0x407),_0x2ddf27(0x267),_0x2ddf27(0x246),_0x2ddf27(0x2f4),'W603u0Ca',_0x2ddf27(0x3d3),_0x2ddf27(0x35c),_0x2ddf27(0x29c),'W6ZdPmoFWQRcQa','WPX0q8oOwG','iSkvAJW/',_0x2ddf27(0x336),_0x2ddf27(0x32f),_0x2ddf27(0x3c9),_0x2ddf27(0x317),'BSoWiSkooG',_0x2ddf27(0x482),_0x2ddf27(0x343),_0x2ddf27(0x1ef),_0x2ddf27(0x44e),_0x2ddf27(0x245),_0x2ddf27(0x39e),'k3hcV0JdNG',_0x2ddf27(0x28d),_0x2ddf27(0x1d4),_0x2ddf27(0x2fe),'xrZdTuad',_0x2ddf27(0x218),_0x2ddf27(0x452),_0x2ddf27(0x1df),_0x2ddf27(0x432),_0x2ddf27(0x2e0),_0x2ddf27(0x23a),'WRe4abtcUG',_0x2ddf27(0x23c),'a19yW6RcHW','WO3cGSo6WRhdMG','WOZcJmkBW6DF','WPj9WPKdW7m',_0x2ddf27(0x440),_0x2ddf27(0x193),_0x2ddf27(0x2da),'4lE64lwp4lsX4lwCta',_0x2ddf27(0x1c9),_0x2ddf27(0x411),_0x2ddf27(0x17d),_0x2ddf27(0x2d6),'W7T3WRqTW6a',_0x2ddf27(0x292),_0x2ddf27(0x1fb),'W5jDW5FdV8kL',_0x2ddf27(0x464),_0x2ddf27(0x387),_0x2ddf27(0x25d),_0x2ddf27(0x250),_0x2ddf27(0x362),_0x2ddf27(0x361),'W4JdPSo6WORcLG',_0x2ddf27(0x207),_0x2ddf27(0x3fe),_0x2ddf27(0x3be),_0x2ddf27(0x261),_0x2ddf27(0x3cf),_0x2ddf27(0x2fc),_0x2ddf27(0x3fa),_0x2ddf27(0x3dc),'xa17xSoq',_0x2ddf27(0x225),_0x2ddf27(0x293),_0x2ddf27(0x39f),_0x2ddf27(0x203),'eIehiti',_0x2ddf27(0x189),_0x2ddf27(0x2ce),_0x2ddf27(0x26d),_0x2ddf27(0x37a),_0x2ddf27(0x423),_0x2ddf27(0x483),_0x2ddf27(0x30d),_0x2ddf27(0x344),_0x2ddf27(0x3d8),'WOtcHSk5WQlcHW',_0x2ddf27(0x39b),_0x2ddf27(0x348),'CSowWPZcH8kT',_0x2ddf27(0x30f),_0x2ddf27(0x3aa),_0x2ddf27(0x310),_0x2ddf27(0x1f3),_0x2ddf27(0x3ac),_0x2ddf27(0x37f),'WO9ZaN8Y','mmktWQBcKSkG',_0x2ddf27(0x2c9),_0x2ddf27(0x3d4),_0x2ddf27(0x420),_0x2ddf27(0x221),'WP47o1VdUW',_0x2ddf27(0x414),'W6STablcPa',_0x2ddf27(0x473),_0x2ddf27(0x2af),_0x2ddf27(0x1b1),'W7GaWQ3cJq','nCkeFg5X','W43dIJ8oW48',_0x2ddf27(0x1db),'lmkxWRZcGCkX',_0x2ddf27(0x339),_0x2ddf27(0x2d3),_0x2ddf27(0x34b),_0x2ddf27(0x326),_0x2ddf27(0x202),_0x2ddf27(0x228),_0x2ddf27(0x377),'W6pdKCogW73dNq','oCoNdIZcSW',_0x2ddf27(0x27b),_0x2ddf27(0x378),'WOOSfta3',_0x2ddf27(0x1a4),_0x2ddf27(0x38c),'f+c2MEc2HUc3GUc3RG',_0x2ddf27(0x272),_0x2ddf27(0x1ff),_0x2ddf27(0x29d),_0x2ddf27(0x1c1),_0x2ddf27(0x1eb),_0x2ddf27(0x2ed),_0x2ddf27(0x47e),'WOfNs2K7',_0x2ddf27(0x40e),_0x2ddf27(0x37c),'W4ZdKYChW44',_0x2ddf27(0x42f),_0x2ddf27(0x2e3),_0x2ddf27(0x215),_0x2ddf27(0x24d),'gCkAfInvWPZcQGT3W4pcRSkR','BCkNf1hcMG',_0x2ddf27(0x355),_0x2ddf27(0x306),_0x2ddf27(0x24c),_0x2ddf27(0x1ab),'WOHuWQzqvW',_0x2ddf27(0x1c3),_0x2ddf27(0x3cb),_0x2ddf27(0x2bb),_0x2ddf27(0x44d),_0x2ddf27(0x3b7),_0x2ddf27(0x26c),_0x2ddf27(0x345),_0x2ddf27(0x1de),_0x2ddf27(0x183),'WOP1xSo8ga',_0x2ddf27(0x370),_0x2ddf27(0x3b1),_0x2ddf27(0x45a),_0x2ddf27(0x3ef),'W6NdKCkWW4NdRa','W50tW7SoiSoKWQiGWQz4duJdVG','WOnMdW',_0x2ddf27(0x442),'4Bwi4BwQDpcUSj/IGQRXJ4g5',_0x2ddf27(0x3ec),_0x2ddf27(0x334),_0x2ddf27(0x1cb),'pmk1W7NdTWi','bLnMW4dcNa',_0x2ddf27(0x1c8),_0x2ddf27(0x36b),_0x2ddf27(0x3a5),_0x2ddf27(0x24f),_0x2ddf27(0x30a),_0x2ddf27(0x3bc),_0x2ddf27(0x187),_0x2ddf27(0x313),_0x2ddf27(0x28f),_0x2ddf27(0x328),_0x2ddf27(0x335),_0x2ddf27(0x3dd),_0x2ddf27(0x1e1),_0x2ddf27(0x36a),_0x2ddf27(0x457),_0x2ddf27(0x382),_0x2ddf27(0x1d1),_0x2ddf27(0x43a),_0x2ddf27(0x2c4),_0x2ddf27(0x2dd),_0x2ddf27(0x469),'Ab47m1C',_0x2ddf27(0x255),'uSoVaa',_0x2ddf27(0x262),_0x2ddf27(0x28b),_0x2ddf27(0x1e0),_0x2ddf27(0x206),_0x2ddf27(0x311),_0x2ddf27(0x401),_0x2ddf27(0x33d),_0x2ddf27(0x1b5),'d05IW5NcJa','WP1WeW','zEc2Soc1VqxGTAu',_0x2ddf27(0x19a),_0x2ddf27(0x29e),_0x2ddf27(0x393),_0x2ddf27(0x2e7),_0x2ddf27(0x26b),_0x2ddf27(0x371),_0x2ddf27(0x1dd),_0x2ddf27(0x458),'EmopW4m','WPHVqSoIoG',_0x2ddf27(0x2f9),_0x2ddf27(0x2d5),_0x2ddf27(0x31f),_0x2ddf27(0x238),_0x2ddf27(0x465),_0x2ddf27(0x257),_0x2ddf27(0x398),_0x2ddf27(0x1b6),_0x2ddf27(0x38a),'W57dKCojWQtcOG',_0x2ddf27(0x386),'WPO8W40Koa',_0x2ddf27(0x429),_0x2ddf27(0x19d),_0x2ddf27(0x219),_0x2ddf27(0x26a),_0x2ddf27(0x3f2),_0x2ddf27(0x2bc),_0x2ddf27(0x1a2),_0x2ddf27(0x35d),_0x2ddf27(0x3b0),_0x2ddf27(0x3c4),_0x2ddf27(0x353),_0x2ddf27(0x18e),_0x2ddf27(0x192),_0x2ddf27(0x260),_0x2ddf27(0x38b),_0x2ddf27(0x412),_0x2ddf27(0x372),_0x2ddf27(0x439),_0x2ddf27(0x425),'AMNcUqRdHa',_0x2ddf27(0x42b),_0x2ddf27(0x1a7),'WRldTuT2W78',_0x2ddf27(0x1b0),_0x2ddf27(0x3bb),_0x2ddf27(0x27f),_0x2ddf27(0x3c8)];return _0x201d=function(){return _0x1f0488;},_0x201d();}_0x2e197e['on']=_0x3a8bd0(0x34c),cmd(_0x2e197e,async(_0x4f3e75,_0x1af8ae,_0x4ed135,{from:_0x4020f9,l:_0x26cb7d,prefix:_0x902b20,quoted:_0x17e5d6,body:_0x501533,isCmd:_0x5cc83e,command:_0x113e42,args:_0x465b02,q:_0x5e81b6,isGroup:_0x2ee0fe,sender:_0x4e971b,senderNumber:_0x51e115,botNumber2:_0x3148f4,botNumber:_0x22a861,pushname:_0x34fd05,isMe:_0x463fd5,isOwner:_0x178865,groupMetadata:_0x33772f,groupName:_0x5941b4,participants:_0x34f67f,groupAdmins:_0x4729ed,isBotAdmins:_0x12b5d3,isAdmins:_0x403f07,reply:_0x5760a9})=>{const _0x530e2c=_0x3a8bd0;if(config[_0x530e2c(0x2b6)]==='true'){if(_0x1af8ae[_0x530e2c(0x1e3)]['fromMe'])return;let _0x1c3e72=await fetchJson(_0x530e2c(0x3ea)+_0x5e81b6);const _0x234b28={'url':await _0x1c3e72['result']},_0x42a784={'image':_0x234b28,'caption':_0x530e2c(0x185)},_0x41a5cc={'quoted':_0x1af8ae};await _0x4f3e75['sendMessage'](_0x4020f9,_0x42a784,_0x41a5cc);}});const _0x3c6995={'on':_0x3a8bd0(0x34c)};cmd(_0x3c6995,async(_0x376960,_0x18e9df,_0x315291,{from:_0x24452a,l:_0x2d1c8e,prefix:_0x2104d1,quoted:_0x4bf470,body:_0x30eb51,isCmd:_0x3cee5f,command:_0x56c018,args:_0x3c5b35,q:_0x4a8eb7,isGroup:_0x48475a,sender:_0x2980de,senderNumber:_0x252a00,botNumber2:_0x525f5a,botNumber:_0x489ff2,pushname:_0x48faf1,isMe:_0x2fe1b6,isOwner:_0x52a595,groupMetadata:_0xabdde0,groupName:_0x2b7aba,participants:_0x5889d2,groupAdmins:_0x36ba3a,isBotAdmins:_0x139a39,isAdmins:_0x3c2cb0,reply:_0x4cf431})=>{const _0xeeeafe=_0x3a8bd0;if(config[_0xeeeafe(0x3a0)]===_0xeeeafe(0x25a)){if(_0x18e9df[_0xeeeafe(0x1e3)]['fromMe'])return;var _0x46dafa=(await fetchJson(_0xeeeafe(0x21d)+_0x4a8eb7))['data'];return await _0x4cf431(_0x46dafa);}});const _0x2cd47c={'pattern':_0x3a8bd0(0x418),'alias':['bb'],'react':'👾','desc':'Blackbox\x20ai\x20chat','category':_0x3a8bd0(0x3f1),'use':_0x3a8bd0(0x1bb),'filename':__filename};cmd(_0x2cd47c,async(_0x5d4594,_0x6ea130,_0x3c1586,{from:_0x4f69fe,l:_0x1b167c,prefix:_0x21ffac,quoted:_0x1ae806,body:_0x125cd9,isCmd:_0x3c2a14,command:_0x26c2a1,args:_0x74e0c0,q:_0x291e4a,isGroup:_0x312e2d,sender:_0x5e6b1e,senderNumber:_0x133329,botNumber2:_0x152414,botNumber:_0x2bd968,pushname:_0x30f8f5,isMe:_0x33cc36,isOwner:_0x26b629,groupMetadata:_0x1de5d2,groupName:_0x200916,participants:_0x4bb3ce,groupAdmins:_0x354aa9,isBotAdmins:_0x2ed061,isAdmins:_0x263080,reply:_0x55958})=>{const _0x348471=_0x3a8bd0;try{if(!_0x291e4a)return _0x55958(_0x348471(0x466));var _0x323290=(await fetchJson(_0x348471(0x375)+_0x291e4a))[_0x348471(0x30c)];return await _0x55958(_0x323290);}catch(_0x4a3ad7){_0x55958('Unable\x20to\x20generate'),_0x1b167c(_0x4a3ad7);}});const _0x14e10a={'pattern':_0x3a8bd0(0x43c),'alias':[_0x3a8bd0(0x39a)],'react':'📷','desc':'Generate\x20Images\x20using\x20Bing\x20AI','category':_0x3a8bd0(0x3f1),'use':'.bingimgai\x20<prompt>','filename':__filename};function _0x19547a(_0x2787d9,_0x5f429f,_0x2987e3,_0x206867,_0x274261){return _0x391d(_0x274261+0x16a,_0x206867);}cmd(_0x14e10a,async(_0x30a7ab,_0x1a5120,_0x3add21,{from:_0x10cc9b,l:_0xcb3082,quoted:_0x31b433,body:_0x8d1d8a,isCmd:_0x27080b,command:_0x4405bf,args:_0x5176ae,q:_0x5e1c9b,isGroup:_0x561b86,sender:_0x31873d,senderNumber:_0x4142d2,botNumber2:_0x22c925,botNumber:_0x46f8fb,pushname:_0x3218b9,isMe:_0x4654de,isOwner:_0x9a3c15,groupMetadata:_0x4a4818,groupName:_0x2ccfee,participants:_0x337767,groupAdmins:_0x3eece2,isBotAdmins:_0x1e4c2f,isAdmins:_0x2228d1,reply:_0x4f36f6})=>{const _0x2faa89=_0x3a8bd0;try{if(!_0x5e1c9b)return await _0x4f36f6(_0x2faa89(0x275));let _0x2f8d13=await fetchJson(_0x2faa89(0x3b6)+_0x5e1c9b+_0x2faa89(0x3ad));if(_0x2f8d13&&_0x2f8d13[_0x2faa89(0x30c)]&&Array[_0x2faa89(0x37d)](_0x2f8d13[_0x2faa89(0x30c)])&&_0x2f8d13[_0x2faa89(0x30c)][_0x2faa89(0x322)]>0x0)for(let _0x502031=0x0;_0x502031<_0x2f8d13['result'][_0x2faa89(0x322)];_0x502031++){const _0x243dcb={'url':_0x2f8d13[_0x2faa89(0x30c)][_0x502031]},_0xa64841={'image':_0x243dcb,'caption':config[_0x2faa89(0x211)]},_0x2928e8={'quoted':_0x1a5120};await _0x30a7ab[_0x2faa89(0x308)](_0x10cc9b,_0xa64841,_0x2928e8);}else _0x4f36f6('No\x20images\x20found\x20for\x20the\x20given\x20prompt');}catch(_0x5c5c9e){_0x4f36f6(_0x2faa89(0x460)),_0xcb3082(_0x5c5c9e);}});
+(function (_0x4ad67f, _0xa45f7b) {
+  const _0x312582 = _0x4ad67f();
+  while (true) {
+    try {
+      const _0x1eaed4 = parseInt(_0x391d(0x2b0, "eKWU")) / 0x1 * (parseInt(_0x391d(0x456, 'EKb0')) / 0x2) + -parseInt(_0x391d(0x436, 'vFN1')) / 0x3 * (-parseInt(_0x391d(0x3c7, 'g[Jx')) / 0x4) + parseInt(_0x391d(0x2ea, "iKvA")) / 0x5 + parseInt(_0x391d(0x205, ")A9C")) / 0x6 + -parseInt(_0x391d(0x18c, "[RpR")) / 0x7 + -parseInt(_0x391d(0x2c6, "jKEd")) / 0x8 + parseInt(_0x391d(0x344, "g[Jx")) / 0x9;
+      if (_0x1eaed4 === _0xa45f7b) {
+        break;
+      } else {
+        _0x312582.push(_0x312582.shift());
+      }
+    } catch (_0x3be17c) {
+      _0x312582.push(_0x312582.shift());
+    }
+  }
+})(_0x201d, 0x97129);
+const config = require("../settings");
+const {
+  cmd,
+  commands
+} = require("../lib/command");
+const {
+  getBuffer,
+  getGroupAdmins,
+  getRandom,
+  h2k,
+  isUrl,
+  Json,
+  runtime,
+  sleep,
+  fetchJson
+} = require("../lib/functions");
+const axios = require('axios');
+async function logo(_0x2566bb) {
+  try {
+    const {
+      data: _0x16e106
+    } = await axios.post('https://boredhumans.com/apis/boredagi_api.php', 'prompt=' + _0x2566bb.replace(/\s+/g, "%2520") + "&uid=lwle4nyomx5t0w6quo8&sesh_id=6a55e5df-19f2-4043-b295-a8955f9d528c&get_tool=false&tool_num=44", {
+      'headers': {
+        'User-Agent': "Googlebot-News",
+        'Content-Type': "application/x-www-form-urlencoded; charset=UTF-8"
+      }
+    });
+    const _0x1dd5e0 = _0x16e106.output.match(/src="([^"]+)"/)[0x1];
+    return _0x1dd5e0;
+  } catch (_0x12cf15) {
+    return _0x12cf15;
+  }
+}
+function _0x391d(_0x4b8eef, _0x5b2a45) {
+  const _0x5b2a3a = _0x201d();
+  _0x391d = function (_0x594c38, _0x4f8742) {
+    _0x594c38 = _0x594c38 - 0xdd;
+    let _0x5a6771 = _0x5b2a3a[_0x594c38];
+    if (_0x391d.FtnQcF === undefined) {
+      var _0x5933c8 = function (_0x6fb9ad) {
+        let _0x4683f4 = '';
+        let _0x4fa372 = '';
+        let _0x27130d = 0x0;
+        let _0x143dfa;
+        let _0x549acd;
+        for (let _0x15fde7 = 0x0; _0x549acd = _0x6fb9ad.charAt(_0x15fde7++); ~_0x549acd && (_0x143dfa = _0x27130d % 0x4 ? _0x143dfa * 0x40 + _0x549acd : _0x549acd, _0x27130d++ % 0x4) ? _0x4683f4 += String.fromCharCode(0xff & _0x143dfa >> (-0x2 * _0x27130d & 0x6)) : 0x0) {
+          _0x549acd = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='.indexOf(_0x549acd);
+        }
+        let _0x25f8a1 = 0x0;
+        for (let _0x21afd7 = _0x4683f4.length; _0x25f8a1 < _0x21afd7; _0x25f8a1++) {
+          _0x4fa372 += '%' + ('00' + _0x4683f4.charCodeAt(_0x25f8a1).toString(0x10)).slice(-0x2);
+        }
+        return decodeURIComponent(_0x4fa372);
+      };
+      const _0x5050cd = function (_0x3692ca, _0x556d9b) {
+        let _0xda768c = [];
+        let _0x2e9dd0 = 0x0;
+        let _0x56be73;
+        let _0x501c9a = '';
+        _0x3692ca = _0x5933c8(_0x3692ca);
+        let _0x47865;
+        for (_0x47865 = 0x0; _0x47865 < 0x100; _0x47865++) {
+          _0xda768c[_0x47865] = _0x47865;
+        }
+        for (_0x47865 = 0x0; _0x47865 < 0x100; _0x47865++) {
+          _0x2e9dd0 = (_0x2e9dd0 + _0xda768c[_0x47865] + _0x556d9b.charCodeAt(_0x47865 % _0x556d9b.length)) % 0x100;
+          _0x56be73 = _0xda768c[_0x47865];
+          _0xda768c[_0x47865] = _0xda768c[_0x2e9dd0];
+          _0xda768c[_0x2e9dd0] = _0x56be73;
+        }
+        _0x47865 = 0x0;
+        _0x2e9dd0 = 0x0;
+        for (let _0x1f4abe = 0x0; _0x1f4abe < _0x3692ca.length; _0x1f4abe++) {
+          _0x47865 = (_0x47865 + 0x1) % 0x100;
+          _0x2e9dd0 = (_0x2e9dd0 + _0xda768c[_0x47865]) % 0x100;
+          _0x56be73 = _0xda768c[_0x47865];
+          _0xda768c[_0x47865] = _0xda768c[_0x2e9dd0];
+          _0xda768c[_0x2e9dd0] = _0x56be73;
+          _0x501c9a += String.fromCharCode(_0x3692ca.charCodeAt(_0x1f4abe) ^ _0xda768c[(_0xda768c[_0x47865] + _0xda768c[_0x2e9dd0]) % 0x100]);
+        }
+        return _0x501c9a;
+      };
+      _0x391d.mTAXmu = _0x5050cd;
+      _0x4b8eef = arguments;
+      _0x391d.FtnQcF = true;
+    }
+    const _0x5c604b = _0x5b2a3a[0x0];
+    const _0x18d830 = _0x594c38 + _0x5c604b;
+    const _0x4e5101 = _0x4b8eef[_0x18d830];
+    if (!_0x4e5101) {
+      if (_0x391d.RFOWgm === undefined) {
+        _0x391d.RFOWgm = true;
+      }
+      _0x5a6771 = _0x391d.mTAXmu(_0x5a6771, _0x4f8742);
+      _0x4b8eef[_0x18d830] = _0x5a6771;
+    } else {
+      _0x5a6771 = _0x4e5101;
+    }
+    return _0x5a6771;
+  };
+  return _0x391d(_0x4b8eef, _0x5b2a45);
+}
+const _0x49d246 = {
+  'pattern': 'ailogo',
+  'alias': ["logoai", "ail", "gptlogo"],
+  'react': '🤖',
+  'desc': "It creates ai logos.",
+  'category': 'other',
+  'use': ".ailogo  woman,hair cut collor red,full body,bokeh",
+  'filename': __filename
+};
+cmd(_0x49d246, async (_0x2c7033, _0x529d53, _0xb9b62c, {
+  from: _0x1e0dac,
+  l: _0x492ad7,
+  prefix: _0x4cfbe3,
+  quoted: _0x5c0351,
+  body: _0x29fb11,
+  isCmd: _0x16bf89,
+  command: _0x146cab,
+  args: _0x297226,
+  q: _0x3fc321,
+  isGroup: _0x126608,
+  sender: _0x524f7b,
+  senderNumber: _0x254580,
+  botNumber2: _0x56d6ba,
+  botNumber: _0x54967a,
+  pushname: _0x245e04,
+  isMe: _0x12b687,
+  isOwner: _0x4da5d0,
+  groupMetadata: _0x3db6b5,
+  groupName: _0x4fb36f,
+  participants: _0x52356c,
+  groupAdmins: _0x5cec03,
+  isBotAdmins: _0x3b38d8,
+  isAdmins: _0x18899c,
+  reply: _0xe1feab
+}) => {
+  try {
+    if (!_0x3fc321) {
+      return _0xe1feab("Please enter a query");
+    }
+    let _0x50e38c = await logo(_0x3fc321);
+    const _0x59e72a = {
+      'url': _0x50e38c
+    };
+    const _0x4a30d1 = {
+      'image': _0x59e72a,
+      'caption': "𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗛𝗨𝗡𝗖𝗛𝗢"
+    };
+    const _0x171dbb = {
+      'quoted': _0x529d53
+    };
+    _0x2c7033.sendMessage(_0x1e0dac, _0x4a30d1, _0x171dbb);
+  } catch (_0x5a495a) {
+    _0xe1feab("I cant create that logo");
+    _0x492ad7(_0x5a495a);
+  }
+});
+const _0x500bb8 = {
+  'pattern': "mathsgpt",
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided.",
+  'category': 'other'
+};
+function _0x32bfc0(_0x213201, _0x4a9e96, _0x2db493, _0x45b2d9, _0x3b0a12) {
+  return _0x391d(_0x4a9e96 + 0x113, _0x3b0a12);
+}
+_0x500bb8.use = ".gptmaths 2-3";
+_0x500bb8.filename = __filename;
+cmd(_0x500bb8, async (_0x5856ef, _0x4e4f1e, _0x312e1d, {
+  from: _0x6d369e,
+  l: _0x8f20fe,
+  prefix: _0x33d9a3,
+  quoted: _0x504d13,
+  body: _0xe6d0b9,
+  isCmd: _0x282e00,
+  command: _0x4accff,
+  args: _0x4cbaf2,
+  q: _0xba08b2,
+  isGroup: _0x4127bd,
+  sender: _0x5ad5fa,
+  senderNumber: _0x357dd4,
+  botNumber2: _0x13878a,
+  botNumber: _0x232990,
+  pushname: _0x2fec2d,
+  isMe: _0x1472cf,
+  isOwner: _0xf46087,
+  groupMetadata: _0x58277,
+  groupName: _0x2e234d,
+  participants: _0x2d12ac,
+  groupAdmins: _0x49d803,
+  isBotAdmins: _0xe8f843,
+  isAdmins: _0x51f79e,
+  reply: _0x5c56fa
+}) => {
+  try {
+    if (!_0xba08b2) {
+      return _0x5c56fa("*Please give me words to search on chatgpt ai !*");
+    }
+  } catch (_0xe9bbe5) {
+    _0x5c56fa("*Server is busy. Try again later.!*");
+    _0x8f20fe(_0xe9bbe5);
+  }
+});
+const _0x26e734 = {
+  'pattern': "chatgpt",
+  'alias': ['ai', "gpt", "openai", "chat"],
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided.",
+  'category': "other",
+  'use': ".chatgpt hi",
+  'filename': __filename
+};
+cmd(_0x26e734, async (_0x47faa2, _0x1df6ef, _0x400e87, {
+  from: _0x4b7e4e,
+  l: _0x931f8,
+  prefix: _0x3a9294,
+  quoted: _0x18ef18,
+  body: _0x393380,
+  isCmd: _0x1e1558,
+  command: _0x21aed8,
+  args: _0x4e4936,
+  q: _0x3bd168,
+  isGroup: _0x390d62,
+  sender: _0x1a268e,
+  senderNumber: _0x38af60,
+  botNumber2: _0x486e62,
+  botNumber: _0x7aaa23,
+  pushname: _0x3993b6,
+  isMe: _0x17efe9,
+  isOwner: _0x72cc12,
+  groupMetadata: _0x2dfc63,
+  groupName: _0x2f3607,
+  participants: _0x48b146,
+  groupAdmins: _0x202d5c,
+  isBotAdmins: _0x496d50,
+  isAdmins: _0x47b7e5,
+  reply: _0x55a2d1
+}) => {
+  try {
+    if (!_0x3bd168) {
+      return _0x55a2d1("*Please give me words to search on chatgpt ai !*");
+    }
+    let _0x19e668 = await fetchJson("https://hercai.onrender.com/v3/hercai?question=" + _0x3bd168);
+    return await _0x55a2d1(_0x19e668.reply);
+  } catch (_0xd41f63) {
+    _0x55a2d1("*Server is busy. Try again later.!*");
+    _0x931f8(_0xd41f63);
+  }
+});
+const _0x3456a4 = {
+  'pattern': "gpt2",
+  'alias': ["ai2", "chatgpt2", "openai2", "chat2"],
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided.",
+  'category': "other",
+  'use': ".ai2 hi",
+  'filename': __filename
+};
+cmd(_0x3456a4, async (_0x54acaf, _0x2aa616, _0x3359c2, {
+  from: _0x21fd52,
+  l: _0x253f39,
+  prefix: _0x3c7634,
+  quoted: _0x5cb3c6,
+  body: _0x40f387,
+  isCmd: _0x3071d4,
+  command: _0xdf159e,
+  args: _0x4179a3,
+  q: _0x5d2b5f,
+  isGroup: _0x491724,
+  sender: _0x5cf46a,
+  senderNumber: _0x463adb,
+  botNumber2: _0xe5a475,
+  botNumber: _0x558ebd,
+  pushname: _0x7a70ab,
+  isMe: _0x1f69b9,
+  isOwner: _0xe9c928,
+  groupMetadata: _0x7a6374,
+  groupName: _0x551026,
+  participants: _0x165005,
+  groupAdmins: _0x408d62,
+  isBotAdmins: _0x5994d8,
+  isAdmins: _0x27bab2,
+  reply: _0x3850af
+}) => {
+  try {
+    if (!_0x5d2b5f) {
+      return _0x3850af("*Please give me words to search on chatgpt ai !*");
+    }
+    let _0x5ac3b2 = await fetchJson("https://hercai.onrender.com/v3-32k/hercai?question=" + _0x5d2b5f);
+    return await _0x3850af(_0x5ac3b2.reply);
+  } catch (_0x2c609d) {
+    _0x3850af("*Server is busy. Try again later.!*");
+    _0x253f39(_0x2c609d);
+  }
+});
+const _0x2274e0 = {
+  'pattern': 'turbo',
+  'alias': ["ai3", "gpt3", "openai3", "chat3"],
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided.",
+  'category': 'other',
+  'use': ".chatgpt hi",
+  'filename': __filename
+};
+cmd(_0x2274e0, async (_0x9f4b2f, _0x30fb5d, _0x13649a, {
+  from: _0x424424,
+  l: _0x159b75,
+  prefix: _0x513098,
+  quoted: _0x258693,
+  body: _0x5dcfca,
+  isCmd: _0x54e6d6,
+  command: _0x15fb2a,
+  args: _0x379b0c,
+  q: _0x56f93c,
+  isGroup: _0x1f2ca1,
+  sender: _0x2d7bef,
+  senderNumber: _0x71b770,
+  botNumber2: _0xfc92c2,
+  botNumber: _0x4bfb88,
+  pushname: _0x3a9244,
+  isMe: _0x3259af,
+  isOwner: _0x262b8e,
+  groupMetadata: _0x187e0f,
+  groupName: _0x213fec,
+  participants: _0x2bb280,
+  groupAdmins: _0x1a23b2,
+  isBotAdmins: _0x274555,
+  isAdmins: _0x4523cb,
+  reply: _0x28640e
+}) => {
+  try {
+    if (!_0x56f93c) {
+      return _0x28640e("*Please give me words to search on chatgpt ai !*");
+    }
+    let _0x4b1161 = await fetchJson("https://hercai.onrender.com/turbo/hercai?question=" + _0x56f93c);
+    return await _0x28640e(_0x4b1161.reply);
+  } catch (_0x6d7a7d) {
+    _0x28640e("*Server is busy. Try again later.!*");
+    _0x159b75(_0x6d7a7d);
+  }
+});
+const _0x20ce10 = {
+  'pattern': "gpt4",
+  'alias': ["ai4", "turbo2", "openai4", 'chat4'],
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided."
+};
+function _0x2eafd5(_0x296c6c, _0x21019a, _0x4c95d2, _0x115683, _0x2ee734) {
+  return _0x391d(_0x4c95d2 - 0x25a, _0x21019a);
+}
+_0x20ce10.category = "other";
+_0x20ce10.use = ".chatgpt hi";
+_0x20ce10.filename = __filename;
+cmd(_0x20ce10, async (_0x3a8ba7, _0x2b8a8d, _0x1f485d, {
+  from: _0x2604b3,
+  l: _0xa71390,
+  prefix: _0x2d1bd6,
+  quoted: _0x4e4f47,
+  body: _0x3d3c8f,
+  isCmd: _0x314093,
+  command: _0x54c2b7,
+  args: _0x4e8e78,
+  q: _0xe748d,
+  isGroup: _0x439dcc,
+  sender: _0xa4a631,
+  senderNumber: _0x4e737a,
+  botNumber2: _0x30f43d,
+  botNumber: _0x1ad4f2,
+  pushname: _0xe995e7,
+  isMe: _0x2a10b7,
+  isOwner: _0xdc9cd3,
+  groupMetadata: _0x10c1e3,
+  groupName: _0x14eeca,
+  participants: _0x3746fd,
+  groupAdmins: _0x4463f2,
+  isBotAdmins: _0x3e277d,
+  isAdmins: _0x23c35f,
+  reply: _0x1b124f
+}) => {
+  try {
+    if (!_0xe748d) {
+      return _0x1b124f("*Please give me words to search on chatgpt ai !*");
+    }
+    let _0x3b5fbc = await fetchJson("https://hercai.onrender.com/turbo-16k/hercai?question=" + _0xe748d);
+    return await _0x1b124f(_0x3b5fbc.reply);
+  } catch (_0x5e8a17) {
+    _0x1b124f("*Server is busy. Try again later.!*");
+    _0xa71390(_0x5e8a17);
+  }
+});
+const _0x35736d = {
+  'pattern': 'gemini',
+  'alias': ["ai5", "gpt5", "openai5", "chat5"],
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided.",
+  'category': "other",
+  'use': ".chatgpt hi",
+  'filename': __filename
+};
+cmd(_0x35736d, async (_0x518d7d, _0x13989c, _0x38cc38, {
+  from: _0x2bc5fc,
+  l: _0x388648,
+  prefix: _0x5ddf00,
+  quoted: _0x5e19f4,
+  body: _0x3e10fc,
+  isCmd: _0x3cbb7d,
+  command: _0x38f20a,
+  args: _0x35089e,
+  q: _0xffb0e5,
+  isGroup: _0x4a1b05,
+  sender: _0x517272,
+  senderNumber: _0x5b1e49,
+  botNumber2: _0x390866,
+  botNumber: _0x262e9b,
+  pushname: _0x3c82cc,
+  isMe: _0x8fe244,
+  isOwner: _0xfcd81d,
+  groupMetadata: _0x411385,
+  groupName: _0x519e45,
+  participants: _0x572beb,
+  groupAdmins: _0x58c939,
+  isBotAdmins: _0x368431,
+  isAdmins: _0x4fa312,
+  reply: _0x30a34a
+}) => {
+  try {
+    if (!_0xffb0e5) {
+      return _0x30a34a("*Please give me words to search on chatgpt ai !*");
+    }
+    let _0x3e37f3 = await fetchJson("https://hercai.onrender.com/gemini/hercai?question=" + _0xffb0e5);
+    return await _0x30a34a(_0x3e37f3.reply);
+  } catch (_0x2a45e3) {
+    _0x30a34a("*Server is busy. Try again later.!*");
+    _0x388648(_0x2a45e3);
+  }
+});
+const _0xebe1f4 = {
+  'pattern': "aipic",
+  'react': '👾',
+  'desc': "It search on chatgpt ai for what you provided.",
+  'category': 'other',
+  'use': ".aipic hi",
+  'filename': __filename
+};
+cmd(_0xebe1f4, async (_0x3e599a, _0x225835, _0x135a89, {
+  from: _0x117fce,
+  l: _0xa2a1cd,
+  prefix: _0x1fc6c9,
+  quoted: _0x5c44d5,
+  body: _0x33cd81,
+  isCmd: _0x2710c5,
+  command: _0x52b91e,
+  args: _0x39ebd4,
+  q: _0x1a0068,
+  isGroup: _0x85220f,
+  sender: _0x33dc5f,
+  senderNumber: _0x36204c,
+  botNumber2: _0x54d18e,
+  botNumber: _0x599268,
+  pushname: _0x595c4c,
+  isMe: _0xe4da5c,
+  isOwner: _0x22b012,
+  groupMetadata: _0x4e7cf2,
+  groupName: _0x5dd746,
+  participants: _0x21179f,
+  groupAdmins: _0x4c91de,
+  isBotAdmins: _0x5f2595,
+  isAdmins: _0x357c0e,
+  reply: _0x175251
+}) => {
+  try {
+    if (!_0x1a0068) {
+      return _0x175251("*Please give me words to search on chatgpt ai !*");
+    }
+    let _0x3959f6 = await fetchJson("https://api.maher-zubair.tech/ai/photoleap?q=" + _0x1a0068);
+    const _0x47b05d = {
+      'url': await _0x3959f6.result
+    };
+    const _0x5a5120 = {
+      'image': _0x47b05d,
+      'caption': "𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗛𝗨𝗡𝗖𝗛𝗢"
+    };
+    const _0x5662cc = {
+      'quoted': _0x225835
+    };
+    await _0x3e599a.sendMessage(_0x117fce, _0x5a5120, _0x5662cc);
+  } catch (_0x106325) {
+    _0x175251("*Server is busy. Try again later.!*");
+    _0xa2a1cd(_0x106325);
+  }
+});
+function _0x158ffa(_0xf6ba7d, _0x227f74, _0x2f03e0, _0x714f44, _0xc5606f) {
+  return _0x391d(_0x2f03e0 + 0x1b, _0xf6ba7d);
+}
+const _0x5a6730 = {
+  'on': "body"
+};
+function _0x4245c0(_0x50d4d1, _0x22597f, _0x3fa12f, _0x2f6cd7, _0x34cc6b) {
+  return _0x391d(_0x50d4d1 - 0x9e, _0x3fa12f);
+}
+cmd(_0x5a6730, async (_0x2ebcdf, _0x371b0e, _0x16263a, {
+  from: _0x37d942,
+  l: _0x36e4e1,
+  prefix: _0x2de5a8,
+  quoted: _0x23afa7,
+  body: _0x249a3a,
+  isCmd: _0x31ab4c,
+  command: _0x4a6a0d,
+  args: _0x523d1,
+  q: _0x55f4e5,
+  isGroup: _0x218f6c,
+  sender: _0x2211d8,
+  senderNumber: _0x6ee4af,
+  botNumber2: _0x5aaaf2,
+  botNumber: _0xdb1613,
+  pushname: _0x578a36,
+  isMe: _0x1c0705,
+  isOwner: _0x419ae7,
+  groupMetadata: _0x258b8b,
+  groupName: _0x5bbc0b,
+  participants: _0x5e8ff3,
+  groupAdmins: _0x485000,
+  isBotAdmins: _0x4faa54,
+  isAdmins: _0x2db1d7,
+  reply: _0x27a852
+}) => {
+  if (config.AI_CHATBOT === "true") {
+    if (_0x371b0e.key.fromMe) {
+      return;
+    }
+    let _0x559897 = await fetchJson("https://hercai.onrender.com/gemini/hercai?question=" + _0x55f4e5);
+    return await _0x27a852(_0x559897.reply);
+  }
+});
+const _0x2e197e = {};
+function _0x201d() {
+  const _0x1f0488 = ["E8kMCsm0", "bCkLxmkCW7m", "W6mFW7FcNSof", 'WRpcNCkTW4Tr', "W5G5vLOA", "W4JdUrOQW6a", "FWBcNHGY", "W4nlW4a", 'W7RcT8k4WRf4', 'WPzqW4W', "W4JdHSkVW5hdTa", "jh3cT0ldGW", "W5ZcUmofWQzq", 'rmk3zNtcLa', 'cSoIeMrh', "W4O9WPFcVmkZ", 'WPOod3ddLW', "ce5+W5xcGq", "oSkSWQVcS8kE", "4lww4lwP4lsIWPJGTji", "EmowW4m", 'CwCQ', 'WQRcKeyAzW', "W6zPxqVdRW", "W6SUaedcTa", "emk2rCkbW6u", "WRBcN0a6W4q", 'W7DqWQJdRL4', "4lE84lsR4lEB4lAA4lAv", "WQ8/ham", "W6dcQh1AWQS", "WP98WQbitG", "WPtcJ8kWW7jv", "zSkJWRxcO17dPSkAW4FdMmkuC8oP", "W404W4S7jG", 'wGFdLa', "WO3cN8kWWQNcIa", "rGxdLCo+wa", 'qbpdNG', "kmoOWQVcV8o2", "jvm4kq", "W4RdIMe", "A8oonZC+", "dSoduN4h", 'n8opW5/dO8oM', "wCkHzNpcQG", 'jc9Q', "F8oMnq", "WPlcRuX6WPi", 'xuddNW', "EaBcGG0Z", 'xH/dSubf', 'c19MWO0', "o8o9W7/cU8o4", "z8oyExOJ", "WPZcUhDsW44", "W77dV8oBW6RdLG", "W5LYWOaaW4m", '4lEi4lwMAbBGTRW', "WPXRe389", "W5tdPmk9tZu", "x3C9cvC", 'WR/cGtRcQWC', "WQq0hqxcRG", "W6qgWQZcMmkf", "WQqOfG", "fmogkvTf", "omomjWhcTa", "mmo9n8kmDW", "W78hW6fQaW", "W5BdG8kgxGi", "WOe5WPuevG", "W5mPWP8Mma", "h0xcTLzs", "W7yuW6STaW", "Foc1Roc1S+c1Hoc0NG", "WRZcOuZcSSo6", "WQ9CW4ldI3m", "W4X9W4VcHCk1", "W6C5tq4", 'W7eAW6L3ba', 'WODlWQHAFW', "ywhcRCoOla", 'xmoTemofCG', "WPKSWPuaqa", "du9ZW4tdNq", "ACogW4tcHSog", "WQ/dP8okWR3cQW", "CmkDW5FcUmoQ", 'WRxcJc/dQaa', "W7efW6aKaW", "oCodW43dGqG", "EmoWmCodlq", "WOFcNmkMWQBcJG", 'uaLlxSoG', "Amo6nmoz", "WOpcGSkW", "WQGvW6BdRu4", "WRlcMttcPaK", "nCkZWQ7cG8kq", "yui+kCke", 'AtRcGGKN', "eSoVocu", "leG1nH4", "pCkFW7W", "puuNk8kA", 'ubpdJ8oZEG', 'WQzzW6BdTf8', "cCk6umksW6u", "uCoZmSk5rW", "W40TW4T2", "avvR", "4lAmWRnzW4K8", "ys3dRCoUEq", 'hGpdVfDu', "WORcM8kHWRFcMG", "mmknCtqI", "m8kaCsD/", "fCkubf9M", "W6qjWRlcTaS", "W7WtWQZcNmkt", 'E8k6FNpcTW', "oINcLWzh", "WO3cJmkrW5iL", 'WQqfrKeF', "WOmCcrlcOq", '4lEu4lAYW7dGTRhGTja', "jJLQWQJdLW", "yCoAWRRcQmoN", 'jCoWoadcTa', 'W7JcTeKDmW', "W73dJcycW5i", 'WOuUW4O4la', 'W70DW6q+uq', "W5/GTiZGTQhGT6FGTi0", "WPFcKCkzWP0X", "D8oKW6RcNSoK", "iSoKWR7cVCo0", "WRFcKKGkpq", "aCk+xq", "pmo+W7lcVmo+", "W5KwW5qpoW", "W5DrWORcOCkU", "WO1IhW", 'W6tdJ8oEWOBcGG', "pSkvCdaJ", "eCoCj0i", "W74DWRtcJq", 'WPicWQGXCG', "FCohW5tdO8oS", 'DsRcKbbD', "WPVcV28sFW", "W6RcM0HRWPa", "rqhdJ8oUCa", "BSkJq0lcLG", "WQDsW6VdO1u", 's8oAW5hcQSoR', "pLlcOG85", "kSktWQBdLCkK", "WPBcOdNcVWy", "WPZcImkfW4jb", "dmkUq8ktW5m", "WPtcHCkAW5mR", "WP8SWOqErW", 'y8kUWRdcRGhcM8kvW4JdJ8kW', "WO4/lvFdRW", "F8kVuG", "fqBdLmoOnq", "WPHXgtiQ", "W5yAW54Bjq", 'WRhcQSkEW41F', "xmowj0rS", "cmoxux4c", "8k+GOUkaLpgnGiVcR+g0OEg2K+g1Ka", "WQ3dJrfUW5m", 'n23cO1xdIq', "W7G0B0yE", 'W6pdS8ooW7dcVG', "W6SIhMy9", "WOLVhZ4P", "WPP4x8kHfa", "WORcPx0CyG", "bSkhxbmv", "WOzsWR1nAq", "WPnJW6pdVNy", "W4RcV8ogWPn0", "4lsb4lEO4ls/4lsHgW", "l8oSWQZcUq", 'Bd58WRhdHa', 'aLiqsCo6', "B8o0iSodmq", "WPhcJhWdW4q", "DCohW4JcQSo7", "4lAX4lwG4lAgfUc2Uq", "W7VcN11TWOm", "W7JcSSoHWPH9", 'uSoBkbzQ', "WOu4W5bRiq", "lSoQnSkxqq", "ASoBW5xcUCoQ", "W4q4W5PRiq", 'W77cVmo2WQr+', "imkuDYe0", 'WPhcGCkyW5bJ', "a8knsWW4", "W59XWPXnW6y", "W6D4tLib", 'WOxdGdSkW5u', "W68KrWWk", "W587WO4Dha", 'lLa+Amkb', "W6WnW5ephq", "W5LMWRGNW4m", "gCo4mG", 'xmkAAvPH', 'WOfUet4Z', "W4RdGCovW4ldKa", 'oCo3jCkbgG', "pcJcIXah", 'W6RcM1LKWP0', "D8kVvLhcLG", 'oLmYnq', "W68DWRBcNmkt", "WOPdWRPE", "WQ7cMtlcPWi", "WOFcUmk0hZ8", "CmoSnCo2ka", "wSohuNSn", 'WP4DaW3cIa', "W7eyWQO+fW", "e8ohiXzV", "wXP+ySoG", "B0e+z8kp", 'kmo6n8kaqG', "v0/dNCoVEW", 'WPtcHNpdK8oK', "f8o+lMBcSG", "W53dVCk0rdO", 'WPddPgmo', 'W6WwW6qJta', "DXXjwSo3", 'WQpcLCkKWOtcKa', "W5xdT3zFWOy", 'WRtcHmk7WOJcRq', "e8oaiW", 'W5BdPSoCW6W', "jmoNWQ3cV8o/", "ke84imkp", 'W7/cJL07', "WOCAWPGOyW", "W6DPuKym", "uGpdUffq", 'W7G/r1yn', 'pmo2kmkqqa', "lcC2WQ7dLq", "dCkhWPZcKSkL", "gGDXW4lcIG", "pgNcLqTz", "W6ldOmoyWRZcRG", "xmoVemogEW", "g8oyc1X9", "W4BcOYGaWP5tW4hcI8khlK7dJIu", "W5DrWPy", "WPfXw8oQbq", "WRxcMs/cUb8", "W4BdOSoXwd4", "fmoBm1HS", "ECosfCk6wG", 'm8k/iSkAxa', 'WQbwW6i', "h8opltdcVW", "W4mXWOWxha", "W5VdL8obWOxcHG", "W7fTWOq1W7a", 'WPlcQmktWOJcOW', "dmkOt8oru3L4jNpcNq", "B0CYkCkg", "WRtcUYVcRay", '4lsQW7dcT8o3ma', "W4ZdLSomW4mJ", 'm8oFmwbf', '4ls14ls24lARe+c0MW', "WOT1W5FdN0K", 'h8ovmL57', "WPG2leddOq", "W4JdIZizW5i", "WRXXW5hdSCk1", "WPLTwq", "W5uWWPWdW68", 'W6K4DKSL', "mJFcKvy", "WRJdPw9KW5e", "W5DrWPRcOmkZ", "aSoLjcRcPa", "Fmo+nmkCzq", "pSore8kbDW", '4ls84lAE4lEYe+c0Hq', "lSoEcCkTzG", "sCoVdmkn", 'aCk+hSkyW6e', "ldHG", "W6XnW7tcK8kH", "kqS9jWq", "WRDoqCokgW", "wheW", "WOvKfZy", "AauHnq4", "W6NcNu3dH8ocEdG", "vgGApN4", "gmkpqcWl", "ymowWPy", "vCo8emkAnG", "rmohthay", "qWtdTfvd", "W6aDWR/cH8kx", "W7pdM8oJ", 'WP3dOM5dW5u', "W7WgW6KpmW", "W5hGT6xGTzFGTR8t", "WRZcVHW", "B8k3uKxcHW", "lmk1W6NdSKm", "W6PFW6NdKCkq", 'iCoyeJ7cQa', "WPZcNNBdM8oh", 'zCoNkq', 'eCovmLnV', "F8kLuKxdKW", "W74UxXFdTG", 'qqRdRvfs', "b8kYvSkjzG", "W5PSWQ1OuSkgW5q", "aCkNDXWb", "vwxcRmo+ka", "W5NdHCoE", "W7/dJtuGW5a", "WPRcHCkeW5rS", "lSktWQNcLSkG", "EmkWW6FdQmkK", "WPaTWOyxvG", "vGhdJ8o/CG", "WRNcNNVcVam", "W5vmW4ZcVSkO", "deHQWPdcJG", "A8oOWRBdUSkW", 'WP3dS2HqW4C', 'vWLxs8oH', "nmkcWRZcHCkN", 'WOLUeW', "W7hdHSo9W5W", "WOm9WOatrW", "omkmEti0", "avn6W5xcNq", "fH5xt8oN", "W7/cKqKOWPm", "W6mFWRNcHSoA", "YPVlMog3OvdHTl4", "jCoVWRi", "uGxdJ8ofyq", "cCkyWQNcL8k4", "W43dHSoMW7pdNW", "pLZdMreP", 'jhZcT1xdKG', "WPK9WPmtuG", "WR/cGIm", "nMhcV0VcHG", "WQG7gWNcRW", "WO9kWQbCAq", "WPXSWPqgWQS", 'FCosm8oykq', "W4KPW5eOoG", "weBcJG", 'xbHnamoW', 'W51AW4RcQCoM', "WOVcMCkWWQNdIq", "4lw14ls/4lEK4lA24lEx", "bJz/qghdVq7cMWxdGq", "W5uiW606aq", "bsyadIq", "tSo4cSkasq", "nY96WQhcNW", 'W5RdUCkLwIG', "veVdVeTd", "EYdcLrDe", "WOSgWR5sAa", 'DmodW5lcPCo8', "WPtcLmkaWP4", "W6NdJrnnkSopWRL2WPpdMSo4xa", "WRr5dfSm", "WRVcIdNcRf0", "fGpcVbbV", 'WP18wCoQea', "t8o8f8kmEq", 'mc9RWQRdNW', "peu5i8kU", "WR3cLfmCya", "WOm7WOazhq", "oqRcIcfH", "i8o+W67cTHW", "oSkAWQFcMSkM", "fCoRpYpcNa", "jSo+W6hdPa8", "ibmGnGq", "WQ4kb1ldUG", "vq7dQWTu", "jSoOWRJcV8oI", "Dq94jSkt", "WOu/W5OQjW", "iCodf2nI", "4lAe4lst4lwKW7RGTkK", 'WPWYjHpdOq', "lrv04lEx4lET", "rSoqz0ev", 'W6e4uvyh', "emkzxJm2", 'WPqQW4WkrG', 'W47dGtWFWOW', 'W44AWRLpDq', "W4/dH8oxW4hdGW", "W5NdHIaEW40", "W5ZcMCotWRjd", "W5LSW5hGT7pGTj0", "kYFcULBdIq", "zHVcNHWU", 'cCo3uSkDW6e', "WOTVqq", "vW1AqmoY", "W7VcLKH8WOm", "W6S8abldOa", "W5fzW5ZcPCo2", 'yHRdT8oODG', "W7GxWRVcGmoz", "lmo5WQVdQa", "gSkREYuY", "B1JcG8onda", "iSkWArCy", "WR3cHWOdzG", "W7tcQSo/WRnO", "aIbFWRddKG", "WORcOCkHWPtcNG", "W6D4wLih", 'W6SPaaZcTG', "q8oNgSoHkG", "k24am8k6", "W5ZdOmoeWOJcGa", "WP9tWQzjFW", "W4TSW5mQiq", 'W6iJW5aSoq', 'nb/cVrrt', 'W5iSwt4Q', "WPniW57dTvO", 'W5NcT3zlWQW', "WQJcNJ7cUH8", "n8kuDdLX", "dmo0W7xcTG0", "xHrts8o9", "g8kAfYjEWPhcJIHIW43cVCku", 'sLhcJ8ohcq', "ctmwcsm", "omoSWRhcVSoC", 'W5T3WPCB', 'xehcJCkwqq', "WOvBpJK4", "WPZcPeGFEG", "W4VcMSoMWRjp", "4lwH4lAdWP8Pna", "CCkWtG", "WRZcGtlcQr8", 'FXFcIqzi', "WR4OaW", 'WOvQeJu', "a8knEmk0W4e", "W4yJiI0J", "W7ebW60Vea", "W71wWR00W7y", "W4VcL8oIWRPk", "W67dQCocWQ7cVa", "WOZcHvJdTmo+", 'WOHkW6ddTxe', "imkuFsCO", "W7tdI8oGWPxcQa", "r8omaNqe", 'oCo+mmkCqq', 'W7HRv1ldSalcRCkIW4ldG8ovW7Hf', "ECoWpSoefa", "d05rW5FcHa", 'W5ddRmkJtG', 'lSkvWQNcNmo6', "W4O+W4y", "wahdLCo+", "jhJdR1tcMW", 'aSolbH7cSW', 'WOTXdCoIfG', "WRNdG1v1W60", 'W6TOW6ldTe0', "wHtdLmo2Ca", 'W7FcKfTTWOO', "kmkoBxu1", "W7pcU8oLWRv7", "mCkxWRZcLSk8", "WPfOwCo/aG", "aCoal1LM", "W6G5vL0n", 'W4BcPCoiWQ7cOq', 'WP5sW6LjDq', "xqPWWOldLG", 'rwyOgLa', "W4pdHNmmW4G", "WOJcKCkBW5rG", 'WRTqfqur', "mSoRW7tcTGq", "w8o2W77cRmo7", "WQbpW6lcPK8", "W7SgW7yRbq", 'W6GxWQVcIW', 'WP/cMMfsWPDSg2FdPmk9d38', "tCo8dCkCCW", "WPddM8kfW5vG", "cmkOh8orCG", "bwCH", "4lwy4lsk4lwxW7BGTQS", 'WOxdPhvfW48', "FrVcMbrV", "WPfVva", "prqX", "BSoogSkYxq", "d0P3", 'wXjrwSo2', "W4jUW6NcHSkP", 'BSkqBtaI', 'iSkoy8kGW40', 'WQbxW67dP0G', "W7xcICo7W5FcUq", 'tKz1W5hcHG', 'CCk2x1pcGq', "f8o6oYRcKG", "W7ZcM1PR", "WP1lE8oDdW", "WQuQF1ddVa", "jgtcUutdLq", "jMPTWQBcKa", "4lAV4lwTWOBGTAlGTzy", "aCk6va", "nmo3W7pdS0O", "W5njWRmkW70", 'kNRcTuhdHW', "rWpdMSoZoW", "yqaokmkw", "x1hcG8oneW", "WONcHCkaW5rG", "pGSWmse", 'WOCiWQrCCG', "o0GYz8ke", "4lwN4lwH4lET4lwg4ls3", "4lE64lwbWQdGTzxGT58", "WRDcpW", "g1r3", "ubJdSSoFuq", "WOJcLCk3WQ3cIa", "WPJcKmkrWObS", "omoWl8kqrG", "WQ/cIcVcPbu", "W6lcHSoUW4JdSa", "o8ogaSkSqW", 'md7dMa', 'saFdRf0', 'umo/iIldHG', "n8kiDda/", "WR7cNeSCFq", "u2y6gG", "pSomeSk7Aq", "gCk4CYud", "iw3cO0y", 'WQqBW7pdQrS', 'W6ldMGGrDG', "vmoRhmoiEW", "g8kvWPNcSmkn", "W5FcPMHjWRi", "W4xcGZ8kW5u", "W6TvW7u4dq", "sColea", "WQ/cSLNdVSoZ", 'WRJcJLTNWOK', 'vSoZe8kAta', "WPdcJmk0WQ7dLG", 'WP8QCvtdPW', 'W58KW6KMmW', "nmktns8K", "W6JcPCoQWOy", 'WOxdGt8kW4i', "sH5Er8k9", "AmoAfCkfxG", "WPtdJtJcQqi", "chDJW6lcLG", "CCkqBtaI", "WPZcJxaqzq", 'W67dTCkuWR7dSG', "WPzzW4lcSmkV", "a8ojnCkJsG", 'ErvNF8kormoQaCoQWPO', 'WPmVjWFcGq', "kCoGWRhcVCo4", "b8obmZxcOG", "pqhcQtPW", "m8kKzCkqASkWW5yKWPlcKCkSWPG", 'bCkKqSkuW6C', "W6W4WP84ma", "fSosiWq5", "eSkYumkwW7q", "kSoXWRBcTCoI", "WRpcHmoUWOdcOa", "ESoNp8onkq", 'CSk0uGNcGG', "c8kOh8oEDW", "WRZcVGBdV8oR", 'kJLyWRVdGG', "lmoSWRhcV8oJ", "W7RcSSoKWRK6", "uGtdT1fs", 'C8kRwv/dNa', "zSo0m8oloW", 'W4ddQmkHrIi', "WPpcL8kBW44", 'tCoqddzg', "xmo4o8oAia", "tmomW4FcR8oJ", "c8kusrC2", "mI5AxmoL", 'jmoAespcIG', "lr8DaZm", 'DmokW5pcLmol', "WPruW4BdO1q", "rmomAuy9", "4lw/W5vfgge", 'WQpdVxDbW4e', "WRizlJJcHq", "W5xdVCkL", "oNJcPHeL", "bCoJWO/cLCoF", "oCoMWRlcQSoL", "WOLpWPzCAG", 'W603u0Ca', "tq5A", "CCodW5ldRCoJ", "4ls14lwxWOxdR+c1UW", 'W6ZdPmoFWQRcQa', 'WPX0q8oOwG', 'iSkvAJW/', "ESoxW5ldRCoS", "W4XAW4RcPCk8", "cKj2WP4", "yw3cOCo7eW", 'BSoWiSkooG', "WRtcGdRcRWK", "W5zXCfldVG", "W7KfW7fQcG", "aLiqt8oJ", "j0uwnSkx", "wSohuNSv", 'k3hcV0JdNG', "tCoqaNzm", "nYBcJbeh", "pa47kfK", 'xrZdTuad', "jgxcTq", "4lwk4lAea+c3Soc2Sa", "AColW5xdOSoT", "FSo9i8kakG", "eGSIkay", "W4CJW5SY", 'WRe4abtcUG', "WOFdJ8kHWQJdIq", 'a19yW6RcHW', 'WO3cGSo6WRhdMG', 'WOZcJmkBW6DF', 'WPj9WPKdW7m', "W7WZueyf", "gmkQjYFcJW", "kmkdWRRcL8k7", '4lE64lwp4lsX4lwCta', "W63dPmocWR3dOq", "wCo8dCkj", "sCoos3yF", "FNZcMSozcq", 'W7T3WRqTW6a', "WP4SWOKvqq", "e8oTdSk0xq", 'W5jDW5FdV8kL', "iNJcPaxdJG", "tmoWW7hcNCoE", "WQainZxcTW", "hSoVAYhcKG", "bSorjv4N", "teBcGCogrW", 'W4JdPSo6WORcLG', "WP1sWQbsDa", "zSohr3nm", "mSkjodO/", "W6CCWRlcMSkS", "BCkcW4xcV8oQ", "WPXPWPKdW7m", "WOb3aI8P", "W6hdU8odW5ldQq", 'xa17xSoq', "W4a+WPiXia", "W6ZdSmoeWOpcGW", "FCkNrN/cOq", "fCoIkJlcNa", 'eIehiti', "tCkcvN8j", "rwy6deG", "zSonaN4b", "W5vOWPqmWQC", "W6qDzwSX", "W55VWOusuq", "qb7dVfzd", "WQbdWR5o", "WQ40vKaq", 'WOtcHSk5WQlcHW', "yum/jSkx", "WO9fySo/pG", 'CSowWPZcH8kT', "WROVabtcPq", "eWZcRdPK", "qmk2wmovW6y", "WPRdHmkCW4K", "nmoVW6xcTGu", "ybpcGGKL", 'WO9ZaN8Y', 'mmktWQBcKSkG', "xq8Fr8oG", "W6tdR8o5W7RdRW", "W7dcSL5DWOu", "ESodW5lcQmoO", 'WP47o1VdUW', "WOW/aqxcSG", 'W6STablcPa', "W6maW7JcN8kE", "WPhdHmkBW44L", "WQNcGmk8WOZcRW", 'W7GaWQ3cJq', 'nCkeFg5X', 'W43dIJ8oW48', "W7W1qLPh", 'lmkxWRZcGCkX', "lSo7WRZcU8o4", "W5nZW54wW7i", "WO1hWRLjCW", "WPuKd3ZdNW", "4BAP4BAjW7hHTlhHTzW", "imowbeXh", "iWiT", 'W6pdKCogW73dNq', 'oCoNdIZcSW', "WP1dWQHpEq", "kCkfWQ0", 'WOOSfta3', "hEc0H+c3GUc1MEc3Na", "DSomW5ldRCoN", 'f+c2MEc2HUc3GUc3RG', "rqpdReDc", "j8oAj1rK", "smkBAvD4", "W5LuW4NcVSk0", "qW7dQLbB", "C8kQqM/cTW", "B0eWjSkk", 'WOfNs2K7', "WOrPgbac", "lSoRlCkBsq", 'W4ZdKYChW44', "WPHSbsS", "kMxdV0ldGW", "WRZcOaBdS8o6", "jMFcVLhdGW", 'gCkAfInvWPZcQGT3W4pcRSkR', 'BCkNf1hcMG', "WO/cJSkYWQlcMG", "WOLjWQzADG", "xdJdJv9H", "m8koFcX9", 'WOHuWQzqvW', "e8oziW", "W6FdHmoQ", "W7ehW7W", "W5pdVCkHrJi", "W6BdO8k3ysO", "xqqcwmo6", "4lws4lES4lAz4lEHrW", "vgSOdre", "CGpdQSoFta", 'WOP1xSo8ga', "W6WqW7y/dG", "WRGPWOydEq", "bSk+xCkqW64", "WQhdQmosW6hcPG", 'W6NdKCkWW4NdRa', 'W50tW7SoiSoKWQiGWQz4duJdVG', 'WOnMdW', "Ewu2WQhdLq", '4Bwi4BwQDpcUSj/IGQRXJ4g5', "eCkfWR3cOSkJ", "W7OKvLy", "W5hdPCk+qZG", 'pmk1W7NdTWi', 'bLnMW4dcNa', "W7OqW7yP", "kg3cK3xdJa", "A8kXuG", "W4jPW5Lca3ueimkEw8oNW5ZdMG", "WRZcMxVcSqm", "W4JdOr4nW4C", "lK0Y", "a8kcESkTW48", "dubtW7ZcNa", "WQK3d0RdJW", "WPjkzCokaG", "mJFcKvC", "WPiYWQOiEG", "kmoWkmkq", "b8ohiW", "WODqWO1Tva", "W47dNmoHW7ZdLG", "WPldS3rwW5q", "qez7W4dcHG", "WRnAW7pdOXS", "W7fBW7tcLmkF", 'Ab47m1C', "WOVcVmkVWR7cRG", 'uSoVaa', "W70DW6aVea", "iMPYWQZdIq", "4lwS4lsN4lEQW6Hn", "gq3dKmkxuqzunaVcVHz4", "wmoqtxOC", "WRK+tYhcIq", "WQHxW67dTru", "W5pdUCk5wxS", 'd05IW5NcJa', 'WP1WeW', 'zEc2Soc1VqxGTAu', "yHFdLHXG", "wxeml10", "W603v1yo", "AY3dIKjY", "WPPUwYOO", "WQvwW4ldONK", "l8oSiq", "W5FcMNbUWQa", 'EmopW4m', 'WPHVqSoIoG', "C8kJufpcGa", "eqBdVavw", "W6OZufa", "WR5kWQXCAq", "oCoRWRddTCo5", "W6nwW4tcS8kQ", "mmk6F8oipa", "iIn1WQBdLW", "WQhcPeOSCG", 'W57dKCojWQtcOG', "WPlcUJtcQI8", 'WPO8W40Koa', "WOPSeIy", "jCkiDZTS", "WPO9BmogvW", "WR3cHWCqya", "4Bwqz8M8Y6Wj", "W68tWQZcJCkr", "WRK/dGpcTa", "WPeVpIlcPW", "WPZdHmkaW48L", "WR7cJcVcVau", "4lwe4lAR4lEP4lwB4lEk", "FL3cJLa3", "WO3cImk6", "h8ornuvP", "wmoVv8oj", "xmo6hmkBnG", "WQ/cNJ/cSIC", "x08+leu", "vbldN8kLyq", 'AMNcUqRdHa', "m8oZaW", "WRJcPqFcSW", 'WRldTuT2W78', "m8kcWQdcKmkM", "vG7dT0bf", "WQJdImoMW5tdTG", "q8ohwW"];
+  _0x201d = function () {
+    return _0x1f0488;
+  };
+  return _0x201d();
+}
+_0x2e197e.on = "body";
+cmd(_0x2e197e, async (_0x4f3e75, _0x1af8ae, _0x4ed135, {
+  from: _0x4020f9,
+  l: _0x26cb7d,
+  prefix: _0x902b20,
+  quoted: _0x17e5d6,
+  body: _0x501533,
+  isCmd: _0x5cc83e,
+  command: _0x113e42,
+  args: _0x465b02,
+  q: _0x5e81b6,
+  isGroup: _0x2ee0fe,
+  sender: _0x4e971b,
+  senderNumber: _0x51e115,
+  botNumber2: _0x3148f4,
+  botNumber: _0x22a861,
+  pushname: _0x34fd05,
+  isMe: _0x463fd5,
+  isOwner: _0x178865,
+  groupMetadata: _0x33772f,
+  groupName: _0x5941b4,
+  participants: _0x34f67f,
+  groupAdmins: _0x4729ed,
+  isBotAdmins: _0x12b5d3,
+  isAdmins: _0x403f07,
+  reply: _0x5760a9
+}) => {
+  if (config.AI_IMAGE === 'true') {
+    if (_0x1af8ae.key.fromMe) {
+      return;
+    }
+    let _0x1c3e72 = await fetchJson("https://api.maher-zubair.tech/ai/photoleap?q=" + _0x5e81b6);
+    const _0x234b28 = {
+      'url': await _0x1c3e72.result
+    };
+    const _0x42a784 = {
+      'image': _0x234b28,
+      'caption': "𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗛𝗨𝗡𝗖𝗛𝗢"
+    };
+    const _0x41a5cc = {
+      'quoted': _0x1af8ae
+    };
+    await _0x4f3e75.sendMessage(_0x4020f9, _0x42a784, _0x41a5cc);
+  }
+});
+const _0x3c6995 = {
+  'on': "body"
+};
+cmd(_0x3c6995, async (_0x376960, _0x18e9df, _0x315291, {
+  from: _0x24452a,
+  l: _0x2d1c8e,
+  prefix: _0x2104d1,
+  quoted: _0x4bf470,
+  body: _0x30eb51,
+  isCmd: _0x3cee5f,
+  command: _0x56c018,
+  args: _0x3c5b35,
+  q: _0x4a8eb7,
+  isGroup: _0x48475a,
+  sender: _0x2980de,
+  senderNumber: _0x252a00,
+  botNumber2: _0x525f5a,
+  botNumber: _0x489ff2,
+  pushname: _0x48faf1,
+  isMe: _0x2fe1b6,
+  isOwner: _0x52a595,
+  groupMetadata: _0xabdde0,
+  groupName: _0x2b7aba,
+  participants: _0x5889d2,
+  groupAdmins: _0x36ba3a,
+  isBotAdmins: _0x139a39,
+  isAdmins: _0x3c2cb0,
+  reply: _0x4cf431
+}) => {
+  if (config.MATHS_AI === "true") {
+    if (_0x18e9df.key.fromMe) {
+      return;
+    }
+    var _0x46dafa = (await fetchJson("https://api.maher-zubair.tech/ai/mathssolve?q=" + _0x4a8eb7)).data;
+    return await _0x4cf431(_0x46dafa);
+  }
+});
+const _0x2cd47c = {
+  'pattern': "blackbox",
+  'alias': ['bb'],
+  'react': '👾',
+  'desc': "Blackbox ai chat",
+  'category': "other",
+  'use': ".blackbox hi",
+  'filename': __filename
+};
+cmd(_0x2cd47c, async (_0x5d4594, _0x6ea130, _0x3c1586, {
+  from: _0x4f69fe,
+  l: _0x1b167c,
+  prefix: _0x21ffac,
+  quoted: _0x1ae806,
+  body: _0x125cd9,
+  isCmd: _0x3c2a14,
+  command: _0x26c2a1,
+  args: _0x74e0c0,
+  q: _0x291e4a,
+  isGroup: _0x312e2d,
+  sender: _0x5e6b1e,
+  senderNumber: _0x133329,
+  botNumber2: _0x152414,
+  botNumber: _0x2bd968,
+  pushname: _0x30f8f5,
+  isMe: _0x33cc36,
+  isOwner: _0x26b629,
+  groupMetadata: _0x1de5d2,
+  groupName: _0x200916,
+  participants: _0x4bb3ce,
+  groupAdmins: _0x354aa9,
+  isBotAdmins: _0x2ed061,
+  isAdmins: _0x263080,
+  reply: _0x55958
+}) => {
+  try {
+    if (!_0x291e4a) {
+      return _0x55958("Need a keyword");
+    }
+    var _0x323290 = (await fetchJson("https://api.yanzbotz.my.id/api/ai/blackbox?query=" + _0x291e4a)).result;
+    return await _0x55958(_0x323290);
+  } catch (_0x4a3ad7) {
+    _0x55958("Unable to generate");
+    _0x1b167c(_0x4a3ad7);
+  }
+});
+const _0x14e10a = {
+  'pattern': "bingimgai",
+  'alias': ["midj"],
+  'react': '📷',
+  'desc': "Generate Images using Bing AI",
+  'category': "other",
+  'use': ".bingimgai <prompt>",
+  'filename': __filename
+};
+function _0x19547a(_0x2787d9, _0x5f429f, _0x2987e3, _0x206867, _0x274261) {
+  return _0x391d(_0x274261 + 0x16a, _0x206867);
+}
+cmd(_0x14e10a, async (_0x30a7ab, _0x1a5120, _0x3add21, {
+  from: _0x10cc9b,
+  l: _0xcb3082,
+  quoted: _0x31b433,
+  body: _0x8d1d8a,
+  isCmd: _0x27080b,
+  command: _0x4405bf,
+  args: _0x5176ae,
+  q: _0x5e1c9b,
+  isGroup: _0x561b86,
+  sender: _0x31873d,
+  senderNumber: _0x4142d2,
+  botNumber2: _0x22c925,
+  botNumber: _0x46f8fb,
+  pushname: _0x3218b9,
+  isMe: _0x4654de,
+  isOwner: _0x9a3c15,
+  groupMetadata: _0x4a4818,
+  groupName: _0x2ccfee,
+  participants: _0x337767,
+  groupAdmins: _0x3eece2,
+  isBotAdmins: _0x1e4c2f,
+  isAdmins: _0x2228d1,
+  reply: _0x4f36f6
+}) => {
+  try {
+    if (!_0x5e1c9b) {
+      return await _0x4f36f6("*Give me a prompt to generate images*");
+    }
+    let _0x2f8d13 = await fetchJson("https://api.yanzbotz.my.id/api/text2img/bing-image?prompt=" + _0x5e1c9b + "&apiKey=vihangayt0");
+    if (_0x2f8d13 && _0x2f8d13.result && Array.isArray(_0x2f8d13.result) && _0x2f8d13.result.length > 0x0) {
+      for (let _0x502031 = 0x0; _0x502031 < _0x2f8d13.result.length; _0x502031++) {
+        const _0x243dcb = {
+          'url': _0x2f8d13.result[_0x502031]
+        };
+        const _0xa64841 = {
+          'image': _0x243dcb,
+          'caption': config.FOOTER
+        };
+        const _0x2928e8 = {
+          'quoted': _0x1a5120
+        };
+        await _0x30a7ab.sendMessage(_0x10cc9b, _0xa64841, _0x2928e8);
+      }
+    } else {
+      _0x4f36f6("No images found for the given prompt");
+    }
+  } catch (_0x5c5c9e) {
+    _0x4f36f6("Unable to generate images to the given prompt");
+    _0xcb3082(_0x5c5c9e);
+  }
+});
