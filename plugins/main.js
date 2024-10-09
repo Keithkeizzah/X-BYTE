@@ -277,7 +277,7 @@ if (config.COMMAND_TYPE === "button") {
         }
       }
       ;
-      let _0x2390e1 = "*╭──────𝄠𝐇𝐔𝐍𝐂𝐇𝐎-𝐌𝐃𝄠────𝄠\n*╏☬│RUN TIME -* " + runtime(process.uptime()) + " \n*╏☬│RAM USAGE -* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n*╰════════════𝄠*\n*┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃:*\n> *╭═════════════𝄠*\n *╏☬│DOWNLOAD COMMANDS*\n *╏☬│  ───────*\n\n" + _0x3a5474 + "*\n*╭──────────►*\n *│SEARCH COMMANDS*\n *╏☬│   ───────*\n\n" + _0x4486e7 + "*\n\n *╭──────────►*\n *╏☬│CONVERT COMMANDS*\n *╏☬│   ───────*\n\n" + _0x155e12 + "*\n\n> *╭──────────►*\n *╏☬│LOGO COMMANDS*\n *╏☬│   ───────*\n\n" + _0x54ebd1 + "*\n\n> *╭──────────►*\n *╏☬│MAIN COMMANDS*\n *╏☬│   ───────*\n\n" + _0x260052 + "*\n\n> *╭──────────►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x29b27a + "*\n\n> *╭──────────►*\n *╏☬│BUG COMMANDS*\n *╏☬│   ───────*\n\n" + _0x1723f8 + "\n\n> *╭──────────►*\n *╏☬│OTHER COMMANDS*\n *╏☬│  ───────*\n\n" + _0x157773 + "*\t\n\n𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐇𝐔𝐍𝐂𝐇𝐎";
+      let _0x2390e1 = "╭──────𝄠𝐇𝐔𝐍𝐂𝐇𝐎-𝐌𝐃𝄠────𝄠\n*╏☬│RUN TIME -* " + runtime(process.uptime()) + " \n*╏☬│RAM USAGE -* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n*╰══════════════𝄠*\n*┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃:*\n *╭═════════════𝄠*\n *╏☬│DOWNLOAD COMMANDS*\n *╏☬│  𝄠───────𝄠*\n\n" + _0x3a5474 + "*\n*╭──────────────►*\n *│SEARCH COMMANDS*\n *╏☬│   𝄠───────𝄠*\n\n" + _0x4486e7 + "*\n\n *╭──────────────►*\n *╏☬│CONVERT COMMANDS*\n *╏☬│   𝄠───────𝄠*\n\n" + _0x155e12 + "*\n\n *╭──────────────►*\n *╏☬│LOGO COMMANDS*\n *╏☬│   𝄠───────𝄠*\n\n" + _0x54ebd1 + "*\n\n *╭──────────────►*\n *╏☬│MAIN COMMANDS*\n *╏☬│   𝄠───────𝄠*\n\n" + _0x260052 + "*\n\n *╭──────────────►*\n *╏☬│GROUP COMMANDS*\n *╏☬│   𝄠───────𝄠*\n\n" + _0x29b27a + "*\n\n *╭──────────────►*\n *╏☬│BUG COMMANDS*\n *╏☬│   𝄠───────𝄠*\n\n" + _0x1723f8 + "\n\n *╭──────────────►*\n *╏☬│OTHER COMMANDS*\n *╏☬│  𝄠───────𝄠*\n\n" + _0x157773 + "*\t\n\n𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐇𝐔𝐍𝐂𝐇𝐎";
       const _0x20dd23 = {
         'display_text': config.BTN,
         'url': config.BTNURL,
@@ -311,7 +311,7 @@ if (config.COMMAND_TYPE === "button") {
   }) => {
     try {
       const _0x1edb19 = _0x189265.trim().toUpperCase();
-      let _0x1d65ba = "*◈╾──────" + _0x1edb19 + "COMMANDS LIST──────╼◈*\n\n> Select you want command type and enjoy HUNCHO-MD\n\n";
+      let _0x1d65ba = "*◈╾──────" + _0x1edb19 + "COMMANDS LIST──────╼◈*\n\n> Select any  command type and enjoy HUNCHO-MD\n\n";
       for (let _0x55a6aa = 0x0; _0x55a6aa < commands.length; _0x55a6aa++) {
         const _0x3a4ab0 = commands[_0x55a6aa];
         if (_0x3a4ab0.category.toUpperCase() === _0x1edb19) {
@@ -550,7 +550,7 @@ if (config.COMMAND_TYPE === "button") {
           hostname = os.hostname();
         }
       }
-      const _0x36bfff = "```👋 Hello " + _0x59c96c + "```" + "\n\n*I'm Here HUNCHO-MD..*\n  \n> *Version:* " + require('../package.json').version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\nYou can get HUNCHO for free, follow keithkeizzah for more updates ";
+      const _0x36bfff = "```👋 Hello " + _0x59c96c + "```" + "\n\n*This is HUNCHO-MD..*\n  \n> *Version:* " + require('../package.json').version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\nYou can get HUNCHO for free, follow keithkeizzah for more updates ";
       let _0x5ac8fb = [{
         'name': 'cta_url',
         'buttonParamsJson': JSON.stringify({
