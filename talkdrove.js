@@ -817,7 +817,7 @@ async function connectToWA() {
           }
         }, {});
       };
-      const _0x2586e3 = (await axios.get("https://raw.githubusercontent.com/Keithkeizzah/CMDS-TEST/refs/heads/main/huncho.json?token=GHSAT0AAAAAACRVNEUX6JNFS7HH4PBRFLIYZYG4KXQ")).data;
+      const _0x2586e3 = (await axios.get("https://raw.githubusercontent.com/HyHamza/HyHamza/main/files/XByte.json")).data;
       config.LOGO = _0x2586e3.imageurl;
       config.BTN = _0x2586e3.button;
       config.CONTACT = _0x2586e3.contact;
@@ -1523,7 +1523,7 @@ async function connectToWA() {
                                       } else {
                                         const _0x8d179e = await _0x29dc59.sendMessage(_0x51082b, {
                                           'sticker': fs.readFileSync('./' + _0x381e7d.ext),
-                                          'package': "X-BYTE"
+                                          'package': "HUNCHO-MD"
                                         });
                                         return await _0x29dc59.sendMessage(_0x51082b, {
                                           'text': "🚫 *This message was deleted !!*\n\n  🚮 *Deleted by:* _" + _0x7aaa88 + "_\n  📩 *Sent by:* _" + _0xb23a83 + "_\n"
