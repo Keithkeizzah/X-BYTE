@@ -1,12 +1,12 @@
 {
-  "name":"x-byte",
+  "name":"HUNCHO-MD",
   "version":"1.0.2",
-  "description":"X-BYTE has been designed to make things easier and fun while using WhatsApp.",
-  "main":"talkdrove.js",
+  "description":"HUNCHO-MD has been designed to make things easier and fun while using WhatsApp.",
+  "main":"index.js",
   "scripts":{
-    "start":"pm2 start talkdrove.js --deep-monitoring --attach --name X-BYTE",
-    "stop":"pm2 stop X-BYTE",
-    "restart":"pm2 restart X-BYTE"},
+    "start":"pm2 start index.js --deep-monitoring --attach --name HUNCHO-MD",
+    "stop":"pm2 stop HUNCHO-MD",
+    "restart":"pm2 restart HUNCHO-MD"},
   "dependencies":{
     "body-parser": "^1.20.0",
     "moment-timezone": "^0.5.45",
