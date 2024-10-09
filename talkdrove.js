@@ -142,11 +142,11 @@ async function connectToWA() {
         });
         console.log("Bot connected ✅");
         await _0x29dc59.sendMessage(config.OWNER_NUMBER + "@s.whatsapp.net", {
-          'text': "*X-BYTE CONNECTED*",
+          'text': "*HUNCHO CONNECTED*",
           'contextInfo': {
             'externalAdReply': {
-              'title': "Powered by TalkDrove.",
-              'thumbnailUrl': "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png",
+              'title': "Powered by keithkeizzah.",
+              'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
               'sourceUrl': "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l",
               'mediaType': 0x1,
               'renderLargerThumbnail': true
