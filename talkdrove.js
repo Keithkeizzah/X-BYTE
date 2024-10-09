@@ -147,7 +147,7 @@ async function connectToWA() {
             'externalAdReply': {
               'title': "Powered by keithkeizzah.",
               'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
-              'sourceUrl': "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l",
+              'sourceUrl': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
               'mediaType': 0x1,
               'renderLargerThumbnail': true
             }
@@ -162,7 +162,7 @@ async function connectToWA() {
         if (_0x1192eb.status == "offer") {
           if (_0x1192eb.isGroup == false) {
             await _0x29dc59.sendMessage(_0x1192eb.from, {
-              'text': "⚠️︱I'm X-BYTE, I rejected Call Because my owner is Busy!",
+              'text': "⚠️︱I'm HUNCHO-MD, I rejected Call Because my owner is Busy!",
               'mentions': [_0x1192eb.from]
             });
             await _0x29dc59.rejectCall(_0x1192eb.id, _0x1192eb.from);
@@ -183,12 +183,12 @@ async function connectToWA() {
           try {
             ppuser = await _0x29dc59.profilePictureUrl(_0x47973d, "image");
           } catch (_0x263575) {
-            ppuser = "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png";
+            ppuser = "https://i.imgur.com/4pWgAng.jpeg";
           }
           try {
             ppgroup = await _0x29dc59.profilePictureUrl(_0x4f1469.id, "image");
           } catch (_0x1bac84) {
-            ppgroup = "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png";
+            ppgroup = "https://i.imgur.com/4pWgAng.jpeg";
           }
           memb = _0x1380db.participants.length;
           connWlcm = await getBuffer(ppuser);
@@ -205,7 +205,7 @@ async function connectToWA() {
                 'externalAdReply': {
                   'showAdAttribution': true,
                   'renderLargerThumbnail': true,
-                  'title': "X - B Y T E ",
+                  'title': "HUNCHO-MD ",
                   'body': '' + _0x1380db.subject,
                   'containsAutoReply': true,
                   'mediaType': 0x1,
@@ -227,7 +227,7 @@ async function connectToWA() {
                   'externalAdReply': {
                     'showAdAttribution': true,
                     'renderLargerThumbnail': true,
-                    'title': "X - B Y T E ",
+                    'title': "HUNCHO-MD ",
                     'body': '' + _0x1380db.subject,
                     'containsAutoReply': true,
                     'mediaType': 0x1,
@@ -269,8 +269,8 @@ async function connectToWA() {
                 'externalAdReply': {
                   'showAdAttribution': true,
                   'containsAutoReply': true,
-                  'title': "X-BYTE",
-                  'body': "Powered by TalkDrove",
+                  'title': "HUNCHO-MD",
+                  'body': "Powered by keithkeizzah",
                   'previewType': "PHOTO",
                   'thumbnailUrl': '',
                   'thumbnail': XeonWlcm,
@@ -287,8 +287,8 @@ async function connectToWA() {
                 'externalAdReply': {
                   'showAdAttribution': true,
                   'containsAutoReply': true,
-                  'title': "X-BYTE",
-                  'body': "Powered by TalkDrove",
+                  'title': "HUNCHO-MD",
+                  'body': "Powered by keithkeizzah",
                   'previewType': "PHOTO",
                   'thumbnailUrl': '',
                   'thumbnail': XeonLft,
@@ -523,11 +523,11 @@ async function connectToWA() {
               'serverMessageId': 0x7f
             },
             'externalAdReply': {
-              'title': "X-BYTE, POWERED BY TALKDROVE ",
-              'body': "Created by Hamza",
+              'title': "HUNCHO, POWERED BY KEITH ",
+              'body': "Created by keithkeizzah",
               'mediaType': 0x1,
               'sourceUrl': "https://wa.me/923072380380",
-              'thumbnailUrl': "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png",
+              'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
               'renderLargerThumbnail': false,
               'showAdAttribution': true
             }
@@ -561,11 +561,11 @@ async function connectToWA() {
                 'serverMessageId': 0x7f
               },
               'externalAdReply': {
-                'title': "X-BYTE, POWERED BY TALKDROVE ",
-                'body': "Created by Hamza",
+                'title': "HUNCHO, POWERED BY KEITH ",
+                'body': "Created by keithkeizzah",
                 'mediaType': 0x1,
                 'sourceUrl': 'https://wa.me/923072380380',
-                'thumbnailUrl': "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png",
+                'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
                 'renderLargerThumbnail': false,
                 'showAdAttribution': true
               }
@@ -590,11 +590,11 @@ async function connectToWA() {
                   'serverMessageId': 0x7f
                 },
                 'externalAdReply': {
-                  'title': "X-BYTE, POWERED BY TALKDROVE ",
-                  'body': "Created by Hamza",
+                  'title': "HUNCHO, POWERED BY KEITH ",
+                  'body': "Created by keithkeizzah",
                   'mediaType': 0x1,
                   'sourceUrl': 'https://wa.me/923072380380',
-                  'thumbnailUrl': 'https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png',
+                  'thumbnailUrl': 'https://i.imgur.com/4pWgAng.jpeg',
                   'renderLargerThumbnail': false,
                   'showAdAttribution': true
                 }
@@ -669,11 +669,11 @@ async function connectToWA() {
                 'serverMessageId': 0x7f
               },
               'externalAdReply': {
-                'title': "X-BYTE, POWERED BY TALKDROVE ",
-                'body': "Created by Hamza",
+                'title': "HUNCHO, POWERED BY KEITH ",
+                'body': "Created by keithkeizzah",
                 'mediaType': 0x1,
                 'sourceUrl': "https://wa.me/923072380380",
-                'thumbnailUrl': 'https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png',
+                'thumbnailUrl': 'https://i.imgur.com/4pWgAng.jpeg',
                 'renderLargerThumbnail': false,
                 'showAdAttribution': true
               }
@@ -698,11 +698,11 @@ async function connectToWA() {
                   'serverMessageId': 0x7f
                 },
                 'externalAdReply': {
-                  'title': "X-BYTE, POWERED BY TALKDROVE ",
-                  'body': "Created by Hamza",
+                  'title': "HUNCHO, POWERED BY KEITH ",
+                  'body': "Created by keithkeizzah",
                   'mediaType': 0x1,
                   'sourceUrl': "https://wa.me/923072380380",
-                  'thumbnailUrl': "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png",
+                  'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
                   'renderLargerThumbnail': false,
                   'showAdAttribution': true
                 }
@@ -746,11 +746,11 @@ async function connectToWA() {
               'serverMessageId': 0x7f
             },
             'externalAdReply': {
-              'title': "X-BYTE, POWERED BY TALKDROVE ",
-              'body': "Created by Hamza",
+              'title': "HUNCHO, POWERED BY KEITH ",
+              'body': "Created by keithkeizzah",
               'mediaType': 0x1,
               'sourceUrl': "https://wa.me/923072380380",
-              'thumbnailUrl': "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png",
+              'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
               'renderLargerThumbnail': false,
               'showAdAttribution': true
             }
@@ -792,11 +792,11 @@ async function connectToWA() {
               'serverMessageId': 0x7f
             },
             'externalAdReply': {
-              'title': "X-BYTE, POWERED BY TALKDROVE ",
-              'body': "Created by Hamza",
+              'title': "HUNCHO, POWERED BY KEITH ",
+              'body': "Created by keithkeizzah",
               'mediaType': 0x1,
               'sourceUrl': "https://wa.me/923072380380",
-              'thumbnailUrl': "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/XByte-logo.png",
+              'thumbnailUrl': "https://i.imgur.com/4pWgAng.jpeg",
               'renderLargerThumbnail': false,
               'showAdAttribution': true
             }
@@ -817,7 +817,7 @@ async function connectToWA() {
           }
         }, {});
       };
-      const _0x2586e3 = (await axios.get("https://raw.githubusercontent.com/HyHamza/HyHamza/main/files/XByte.json")).data;
+      const _0x2586e3 = (await axios.get("https://raw.githubusercontent.com/Keithkeizzah/CMDS-TEST/refs/heads/main/huncho.json?token=GHSAT0AAAAAACRVNEUX6JNFS7HH4PBRFLIYZYG4KXQ")).data;
       config.LOGO = _0x2586e3.imageurl;
       config.BTN = _0x2586e3.button;
       config.CONTACT = _0x2586e3.contact;
@@ -1207,7 +1207,7 @@ async function connectToWA() {
         _0x29dc59.sendPresenceUpdate("recording", _0x416738);
       }
       if (config.AUTO_BIO === "true") {
-        _0x29dc59.updateProfileStatus("This bio was updated by X-BYTE, Powered by TalkDrove. " + runtime(process.uptime()) + " ")["catch"](_0x178eb6 => _0x178eb6);
+        _0x29dc59.updateProfileStatus("This bio was updated by keithkeizzah, Powered by HUNCHO. " + runtime(process.uptime()) + " ")["catch"](_0x178eb6 => _0x178eb6);
       }
       if (config.ALWAYS_ONLINE === "false") {
         await _0x29dc59.sendPresenceUpdate('unavailable');
