@@ -105,7 +105,7 @@ if (config.COMMAND_TYPE === "button") {
           hostname = os.hostname();
         }
       }
-      const _0x4e6f2a = "```👋 Hello " + _0x49aa82 + "```" + "\n\n╭───═⟮ *ᴍᴇɴᴜ ʟɪsᴛ* ⟯═───\n│ *𝐕𝐄𝐑𝐒𝐈𝐎𝐍:* " + require('../package.json').version + "\n│ *𝐌𝐄𝐌𝐎𝐑𝐘:* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n│ *𝐑𝐔𝐍𝐓𝐈𝐌𝐄:* " + runtime(process.uptime()) + "\n│ *𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌:* " + hostname + "\n╰━━━━━━━━━━━━━━━┈⊷";
+      const _0x4e6f2a = "```👋 Hello " + _0x49aa82 + "```" + "\n\n╭───═⟮ *𝐇𝐔𝐍𝐂𝐇𝐎-𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓* ⟯═───𝄠 \n╏☬│ *𝐕𝐄𝐑𝐒𝐈𝐎𝐍:* " + require('../package.json').version + "\n╏☬│ *𝐌𝐄𝐌𝐎𝐑𝐘:* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n╏☬│ *𝐑𝐔𝐍𝐓𝐈𝐌𝐄:* " + runtime(process.uptime()) + "\n╏☬│ *𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌:* " + hostname + "\n╰━━━━━━━━━━━━━━━𝄠 ";
       const _0xb45604 = [];
       const _0x4c16f0 = new Map();
       for (let _0x6c13ee = 0x0; _0x6c13ee < commands.length; _0x6c13ee++) {
@@ -277,7 +277,7 @@ if (config.COMMAND_TYPE === "button") {
         }
       }
       ;
-      let _0x2390e1 = "╭─  *𝐇𝐔𝐍𝐂𝐇𝐎 𝐌𝐄𝐍𝐔* \n*│RUN TIME -* " + runtime(process.uptime()) + " \n*│RAM USEAGE -* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n*╰──────────►*\n*𝘊𝘰𝘮𝘮𝘢𝘮𝘥s:*\n> *╭──────────►*\n> *│DOWNLOAD COMMANDS*\n> *│   ───────*\n\n" + _0x3a5474 + "*\n> *╭──────────►*\n> *│SEARCH COMMANDS*\n> *│   ───────*\n\n" + _0x4486e7 + "*\n\n> *╭──────────►*\n> *│CONVERT COMMANDS*\n> *│   ───────*\n\n" + _0x155e12 + "*\n\n> *╭──────────►*\n> *│LOGO COMMANDS*\n> *│   ───────*\n\n" + _0x54ebd1 + "*\n\n> *╭──────────►*\n> *│MAIN COMMANDS*\n> *│   ───────*\n\n" + _0x260052 + "*\n\n> *╭──────────►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x29b27a + "*\n\n> *╭──────────►*\n> *│BUG COMMANDS*\n> *│   ───────*\n\n" + _0x1723f8 + "\n\n> *╭──────────►*\n> *│OTHER COMMANDS*\n> *│   ───────*\n\n" + _0x157773 + "*\t\n\n𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐇𝐔𝐍𝐂𝐇𝐎";
+      let _0x2390e1 = "*╭──────𝄠𝐇𝐔𝐍𝐂𝐇𝐎-𝐌𝐃𝄠────𝄠\n*╏☬│RUN TIME -* " + runtime(process.uptime()) + " \n*╏☬│RAM USAGE -* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n*╰════════════𝄠*\n*┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃:*\n> *╭═════════════𝄠*\n *╏☬│DOWNLOAD COMMANDS*\n *╏☬│  ───────*\n\n" + _0x3a5474 + "*\n*╭──────────►*\n *│SEARCH COMMANDS*\n *╏☬│   ───────*\n\n" + _0x4486e7 + "*\n\n *╭──────────►*\n *╏☬│CONVERT COMMANDS*\n *╏☬│   ───────*\n\n" + _0x155e12 + "*\n\n> *╭──────────►*\n *╏☬│LOGO COMMANDS*\n *╏☬│   ───────*\n\n" + _0x54ebd1 + "*\n\n> *╭──────────►*\n *╏☬│MAIN COMMANDS*\n *╏☬│   ───────*\n\n" + _0x260052 + "*\n\n> *╭──────────►*\n> *│GROUP COMMANDS*\n> *│   ───────*\n\n" + _0x29b27a + "*\n\n> *╭──────────►*\n *╏☬│BUG COMMANDS*\n *╏☬│   ───────*\n\n" + _0x1723f8 + "\n\n> *╭──────────►*\n *╏☬│OTHER COMMANDS*\n *╏☬│  ───────*\n\n" + _0x157773 + "*\t\n\n𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐇𝐔𝐍𝐂𝐇𝐎";
       const _0x20dd23 = {
         'display_text': config.BTN,
         'url': config.BTNURL,
@@ -311,11 +311,11 @@ if (config.COMMAND_TYPE === "button") {
   }) => {
     try {
       const _0x1edb19 = _0x189265.trim().toUpperCase();
-      let _0x1d65ba = "*◈╾──────" + _0x1edb19 + "COMMANDS LIST──────╼◈*\n\n> Select you want command type and enjoy X-BYTE whatsapp bot\n\n";
+      let _0x1d65ba = "*◈╾──────" + _0x1edb19 + "COMMANDS LIST──────╼◈*\n\n> Select you want command type and enjoy HUNCHO-MD\n\n";
       for (let _0x55a6aa = 0x0; _0x55a6aa < commands.length; _0x55a6aa++) {
         const _0x3a4ab0 = commands[_0x55a6aa];
         if (_0x3a4ab0.category.toUpperCase() === _0x1edb19) {
-          _0x1d65ba += "╭────────►\n│ • *" + _0x3a4ab0.pattern + "* \n╰────────────────────►\n";
+          _0x1d65ba += "╭────────►\n╏☬│ • *" + _0x3a4ab0.pattern + "* \n╰────────────────────►\n";
         }
       }
       _0x1d65ba += "\n*Total Commands List " + _0x1edb19 + "*: " + commands.filter(_0x4ffc32 => _0x4ffc32.category.toUpperCase() === _0x1edb19).length + "\n\n" + "*𝐇𝐔𝐍𝐂𝐇𝐎*\n*regards keithkeizzah*";
@@ -554,7 +554,7 @@ if (config.COMMAND_TYPE === "button") {
       let _0x5ac8fb = [{
         'name': 'cta_url',
         'buttonParamsJson': JSON.stringify({
-          'display_text': "YT CHANNEL",
+          'display_text': "YOUTUBE",
           'url': 'https://youtube.com/@keithkeizzah',
           'merchant_url': "https://youtube.com/@keithkeizzah"
         })
@@ -650,7 +650,7 @@ cmd(_0x4a4569, async (_0x487e1c, _0x5797b4, _0x180f3f, {
     const _0x2e860b = os.hostname();
     let _0x15f9ef = await fetchJson("https://raw.githubusercontent.com/HyHamza/HyHamza/main/files/packageForXbyte.json");
     if (_0x2e860b.length > 0xf) {
-      const _0xe56fc8 = "*X-BYTE SYSTEM INFORMATIONS*\n\n*_Bot's System informations_*\n\n1.  _Runtime -: " + runtime(process.uptime()) + "_\n2.  _Ram Usage -: " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB_\n3.  _Bot Version -: " + _0x15f9ef.version + " Stable_\n\n*_Server System informations_*\n\n1.  _Platform : Heroku_\n2.  _Running OS : " + os.platform() + "_\n3.  _CPU Manufacture  -: " + _0x470987.manufacturer + "_\n4.  _CPU Brand -: " + _0x470987.brand + "_\n5.  _CPU Speed -: " + _0x470987.speed + "_\n\n*_System Data Collector Engine_*\n\n1. _Engine Version -: " + _0x9765b0 + "_\n\n*_Running Server's information_*\n\n1. _Server Time Zone -: " + _0x5f2a27.timezone + "_\n2. _Time Zone Name -: " + _0x5f2a27.timezoneName + '_';
+      const _0xe56fc8 = "*HUNCHO SYSTEM INFORMATIONS*\n\n*_Bot's System informations_*\n\n1.  _Runtime -: " + runtime(process.uptime()) + "_\n2.  _Ram Usage -: " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB_\n3.  _Bot Version -: " + _0x15f9ef.version + " Stable_\n\n*_Server System informations_*\n\n1.  _Platform : Heroku_\n2.  _Running OS : " + os.platform() + "_\n3.  _CPU Manufacture  -: " + _0x470987.manufacturer + "_\n4.  _CPU Brand -: " + _0x470987.brand + "_\n5.  _CPU Speed -: " + _0x470987.speed + "_\n\n*_System Data Collector Engine_*\n\n1. _Engine Version -: " + _0x9765b0 + "_\n\n*_Running Server's information_*\n\n1. _Server Time Zone -: " + _0x5f2a27.timezone + "_\n2. _Time Zone Name -: " + _0x5f2a27.timezoneName + '_';
       const _0x1e5dbd = {
         'text': _0xe56fc8
       };
@@ -755,7 +755,7 @@ function _0x65d3(_0x222738, _0x119541) {
 _0x337cae.pattern = "antispam";
 _0x337cae.alias = ['as', "spamoff"];
 _0x337cae.react = '📚';
-_0x337cae.desc = "if anyone send a spam, use this imediatly.";
+_0x337cae.desc = "if anyone send a spam, use this immediately.";
 _0x337cae.category = "main";
 function _0x4254ef(_0x5c3a91, _0x2116b1, _0x3f66d8, _0x38c1c9, _0x407938) {
   return _0x65d3(_0x5c3a91 - 0x23f, _0x2116b1);
