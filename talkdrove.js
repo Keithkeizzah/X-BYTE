@@ -817,7 +817,7 @@ async function connectToWA() {
           }
         }, {});
       };
-      const _0x2586e3 = (await axios.get("https://raw.githubusercontent.com/HyHamza/HyHamza/main/files/XByte.json")).data;
+      const _0x2586e3 = (await axios.get("https://gist.githubusercontent.com/Keithkeizzah/b92a31314feb39c79ef152dc93d3294b/raw/0f77bf72a69801ac71331495916683b6607a797e/huncho.json")).data;
       config.LOGO = _0x2586e3.imageurl;
       config.BTN = _0x2586e3.button;
       config.CONTACT = _0x2586e3.contact;
