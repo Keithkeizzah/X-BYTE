@@ -131,8 +131,8 @@ if (config.COMMAND_TYPE === "button") {
       }
       const _0xeb0778 = {
         'display_text': config.BTN,
-        'url': config.BTNURL,
-        'merchant_url': config.BTNURL
+        'url': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+        'merchant_url': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47"
       };
       let _0x2b751c = [{
         'name': "cta_url",
@@ -404,8 +404,8 @@ if (config.COMMAND_TYPE === "button") {
       -NaN;
       const _0xe47473 = {
         'display_text': config.BTN,
-        'url': config.BTNURL,
-        'merchant_url': config.BTNURL
+        'url': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+        'merchant_url': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47"
       };
       let _0x41e966 = [{
         'name': "cta_url",
@@ -478,8 +478,8 @@ if (config.COMMAND_TYPE === "button") {
       const _0x46e122 = "```👋 Hello " + _0x12a04d + " I'm alive now" + "```" + "\n\n*👾 Im HUNCHO whatsapp bot*\n    \n> *Version:* " + require("../package.json").version + "\n> *Memory:* " + (process.memoryUsage().heapUsed / 0x400 / 0x400).toFixed(0x2) + "MB / " + Math.round(require('os').totalmem / 0x400 / 0x400) + "MB\n> *Runtime:* " + runtime(process.uptime()) + "\n> *Platform:* " + hostname + "\n*Have A Nice Time*";
       const _0x455be7 = {
         'display_text': config.BTN,
-        'url': config.BTNURL,
-        'merchant_url': config.BTNURL
+        'url': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+        'merchant_url': "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47"
       };
       let _0x37a8ab = [{
         'name': 'cta_url',
